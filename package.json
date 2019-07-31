@@ -9,7 +9,7 @@
     "lint:eslint": "eslint --cache '{lib,test}/**/*.ts'",
     "lint:tslint": "tslint -p tsconfig.json",
     "test": "npm run lint && npm run unit-test",
-    "unit-test": "tap test/lib -R=spec --timeout=300 --node-path ts-node --test-file-pattern '/\\.[tj]s$/'",
+    "unit-test": "tap test/lib -R=spec --timeout=300",
     "prepare": "npm run build",
     "build": "tsc",
     "build-watch": "tsc -w",
