@@ -47,3 +47,7 @@ function fixtureTest(description, dir): void {
 }
 
 fixtureTest('Parse eigen’s Podfile.lock', 'eigen');
+fixtureTest(
+  'CocoaPods’ integration spec install_new',
+  'cp-integration-install_new'
+);

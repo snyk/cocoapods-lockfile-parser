@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.2.0",
+  "pkgManager": {
+    "name": "CocoaPods",
+    "version": "unknown",
+    "repositories": [
+      {
+        "alias": "trunk"
+      }
+    ]
+  },
+  "pkgs": [
+    {
+      "id": "_root@0.0.0",
+      "info": {
+        "name": "_root",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "id": "Reachability@3.1.0",
+      "info": {
+        "name": "Reachability",
+        "version": "3.1.0"
+      }
+    }
+  ],
+  "graph": {
+    "rootNodeId": "root-node",
+    "nodes": [
+      {
+        "nodeId": "root-node",
+        "pkgId": "_root@0.0.0",
+        "deps": [
+          {
+            "nodeId": "Reachability"
+          }
+        ]
+      },
+      {
+        "nodeId": "Reachability",
+        "pkgId": "Reachability@3.1.0",
+        "deps": [],
+        "info": {
+          "labels": {
+            "repository": "trunk"
+          }
+        }
+      }
+    ]
+  }
+}
