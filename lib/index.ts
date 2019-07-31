@@ -1,5 +1,3 @@
-import 'source-map-support/register';
+import LockfileParser from './lockfile-parser';
 
-export default function(): boolean {
-  return true;
-}
+export default LockfileParser;

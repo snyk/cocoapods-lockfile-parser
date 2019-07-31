@@ -1,0 +1,601 @@
+PODS:
+  - Adjust (4.17.1):
+    - Adjust/Core (= 4.17.1)
+  - Adjust/Core (4.17.1)
+  - Aerodramus (1.0.0):
+    - ISO8601DateFormatter
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth1Client (0.4.0):
+    - AFNetworking (~> 2.5)
+  - Analytics (3.6.9)
+  - ARAnalytics/Adjust (5.0.1):
+    - Adjust
+    - ARAnalytics/CoreIOS
+  - ARAnalytics/CoreIOS (5.0.1)
+  - ARAnalytics/DSL (5.0.1):
+    - ReactiveObjC (~> 2.0)
+    - RSSwizzle (~> 0.1.0)
+  - ARAnalytics/Segmentio (5.0.1):
+    - Analytics (>= 3)
+    - ARAnalytics/CoreIOS
+  - ARCollectionViewMasonryLayout (2.3.0)
+  - ARGenericTableViewController (1.0.2)
+  - ARTiledImageView (1.2.0):
+    - SDWebImage/Core
+  - "Artsy+UIColors (3.1.0)"
+  - "Artsy+UIFonts (3.3.3)"
+  - "Artsy+UILabels (2.2.0)":
+    - "Artsy+UIColors (~> 3.0)"
+    - "Artsy+UIFonts"
+  - Artsy-UIButtons (2.3.3):
+    - "Artsy+UIColors (~> 3.0)"
+    - "Artsy+UIFonts"
+    - "UIView+BooleanAnimations"
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - boost-for-react-native (1.63.0)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - DHCShakeNotifier (0.2.0)
+  - DoubleConversion (1.1.6)
+  - EDColor (1.0.0)
+  - Emission (1.12.11):
+    - "Artsy+UIColors"
+    - "Artsy+UIFonts (>= 3.0.0)"
+    - DoubleConversion (= 1.1.6)
+    - Extraction (>= 1.2.1)
+    - Folly (= 2018.10.22.00)
+    - glog (= 0.3.5)
+    - ISO8601DateFormatter
+    - Pulley
+    - react-native-cameraroll (= 1.0.5)
+    - react-native-mapbox-gl (= 6.1.4)
+    - react-native-navigator-ios (= 1.0.0)
+    - React/Core (= 0.59.2)
+    - React/CxxBridge (= 0.59.2)
+    - React/RCTActionSheet (= 0.59.2)
+    - React/RCTAnimation (= 0.59.2)
+    - React/RCTCameraRoll (= 0.59.2)
+    - React/RCTGeolocation (= 0.59.2)
+    - React/RCTImage (= 0.59.2)
+    - React/RCTLinkingIOS (= 0.59.2)
+    - React/RCTNetwork (= 0.59.2)
+    - React/RCTText (= 0.59.2)
+    - RNSVG (= 9.4.0)
+    - SDWebImage (< 4, >= 3.7.2)
+    - SentryReactNative (= 0.30.3)
+    - tipsi-stripe (= 7.5.0)
+    - yoga (= 0.59.2.React)
+  - Expecta (1.0.5)
+  - "Expecta+Snapshots (3.0.0)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - Extraction (1.2.4):
+    - Extraction/ARAnimationContinuation (= 1.2.4)
+    - Extraction/ARLoadFailureView (= 1.2.4)
+    - Extraction/ARSpinner (= 1.2.4)
+    - Extraction/ARSwitchView (= 1.2.4)
+    - "Extraction/UILabel+Typography (= 1.2.4)"
+    - "Extraction/UIView+ARSpinner (= 1.2.4)"
+  - Extraction/ARAnimationContinuation (1.2.4)
+  - Extraction/ARLoadFailureView (1.2.4):
+    - Artsy-UIButtons
+    - "Extraction/UILabel+Typography"
+    - ORStackView (< 3)
+  - Extraction/ARSpinner (1.2.4):
+    - "Extraction/UIView+ARSpinner"
+    - "UIView+BooleanAnimations"
+  - Extraction/ARSwitchView (1.2.4):
+    - "Artsy+UIColors"
+    - "Artsy+UIFonts (>= 1.1.0)"
+    - FLKAutoLayout
+    - "UIView+BooleanAnimations"
+  - "Extraction/UILabel+Typography (1.2.4)"
+  - "Extraction/UIView+ARSpinner (1.2.4)":
+    - Extraction/ARAnimationContinuation
+  - FBSDKCoreKit (4.37.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.37.0):
+    - FBSDKCoreKit
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FLKAutoLayout (1.0.0)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - Forgeries/Core (1.0.0)
+  - Forgeries/Mocks (1.0.0):
+    - Forgeries/Core
+    - OCMock
+  - FXBlurView (1.6.1)
+  - glog (0.3.5)
+  - Interstellar/Core (2.0.0)
+  - iRate (1.10.2)
+  - ISO8601DateFormatter (0.7.1)
+  - JLRoutes (2.0.0)
+  - JSDecoupledAppDelegate (1.2.0)
+  - JWTDecode (2.0.0)
+  - Keys (1.0.0)
+  - KSCrash/Core (1.15.18):
+    - KSCrash/Reporting/Filters/Basic
+  - KSCrash/Recording (1.15.18):
+    - KSCrash/Recording/Tools (= 1.15.18)
+  - KSCrash/Recording/Tools (1.15.18)
+  - KSCrash/Reporting/Filters/Base (1.15.18):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (1.15.18):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSDeferred (0.2.0)
+  - Mantle (1.5.6):
+    - Mantle/extobjc (= 1.5.6)
+  - Mantle/extobjc (1.5.6)
+  - MARKRangeSlider (1.0.1)
+  - MMMarkdown (0.4)
+  - MultiDelegate (0.0.2)
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - NPKeyboardLayoutGuide (1.0.0)
+  - ObjectiveSugar (1.1.0)
+  - OCMock (2.2.4)
+  - OHHTTPStubs (3.1.2)
+  - ORKeyboardReactingApplication (0.5.3)
+  - ORStackView (2.0.3):
+    - FLKAutoLayout
+  - Pulley (2.6.2)
+  - Quick (2.0.0)
+  - React (0.59.2):
+    - React/Core (= 0.59.2)
+  - react-native-cameraroll (1.0.5):
+    - React
+  - react-native-mapbox-gl (6.1.4):
+    - React
+  - react-native-navigator-ios (1.0.0):
+    - React
+  - React/Core (0.59.2):
+    - yoga (= 0.59.2.React)
+  - React/CxxBridge (0.59.2):
+    - Folly (= 2018.10.22.00)
+    - React/Core
+    - React/cxxreact
+    - React/jsiexecutor
+  - React/cxxreact (0.59.2):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/jsinspector
+  - React/DevSupport (0.59.2):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.59.2)
+  - React/jsi (0.59.2):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React/jsiexecutor (0.59.2):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React/cxxreact
+    - React/jsi
+  - React/jsinspector (0.59.2)
+  - React/RCTActionSheet (0.59.2):
+    - React/Core
+  - React/RCTAnimation (0.59.2):
+    - React/Core
+  - React/RCTBlob (0.59.2):
+    - React/Core
+  - React/RCTCameraRoll (0.59.2):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.59.2):
+    - React/Core
+  - React/RCTImage (0.59.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.59.2):
+    - React/Core
+  - React/RCTNetwork (0.59.2):
+    - React/Core
+  - React/RCTText (0.59.2):
+    - React/Core
+  - React/RCTWebSocket (0.59.2):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactiveObjC (2.1.2)
+  - RNSVG (9.4.0):
+    - React
+  - RSSwizzle (0.1.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - Sentry (3.9.1):
+    - Sentry/Core (= 3.9.1)
+    - Sentry/KSCrash (= 3.9.1)
+  - Sentry/Core (3.9.1)
+  - Sentry/KSCrash (3.9.1):
+    - KSCrash/Core (~> 1.15.12)
+  - SentryReactNative (0.30.3):
+    - React
+    - Sentry (~> 3.9.0)
+    - Sentry/KSCrash (~> 3.9.0)
+  - Specta (1.0.5)
+  - SSFadingScrollView (1.1.0)
+  - Starscream (3.0.4)
+  - Stripe (14.0.0)
+  - SwiftyJSON (4.0.0)
+  - Then (2.3.0)
+  - tipsi-stripe (7.5.0):
+    - React
+    - Stripe (~> 14.0.0)
+  - UICKeyChainStore (1.0.5)
+  - "UIView+BooleanAnimations (1.0.2)"
+  - VCRURLConnection (0.2.0)
+  - "XCTest+OHHTTPStubSuiteCleanUp (1.0.0)":
+    - OHHTTPStubs
+  - yoga (0.59.2.React)
+
+DEPENDENCIES:
+  - Aerodramus
+  - AFNetworkActivityLogger
+  - AFNetworking (~> 2.5)
+  - AFOAuth1Client (from `https://github.com/lxcid/AFOAuth1Client.git`, tag `0.4.0`)
+  - Analytics
+  - ARAnalytics/Adjust
+  - ARAnalytics/DSL
+  - ARAnalytics/Segmentio
+  - ARCollectionViewMasonryLayout (from `https://github.com/ashfurrow/ARCollectionViewMasonryLayout`)
+  - ARGenericTableViewController (from `https://github.com/orta/ARGenericTableViewController.git`)
+  - ARTiledImageView (from `https://github.com/dblock/ARTiledImageView`)
+  - "Artsy+UIColors"
+  - "Artsy+UIFonts"
+  - "Artsy+UILabels"
+  - Artsy-UIButtons
+  - CocoaLumberjack (from `https://github.com/CocoaLumberjack/CocoaLumberjack.git`)
+  - DHCShakeNotifier
+  - EDColor
+  - Emission (~> 1.12)
+  - Expecta
+  - "Expecta+Snapshots"
+  - Extraction
+  - FBSDKCoreKit (~> 4.33)
+  - FBSDKLoginKit (~> 4.33)
+  - FBSnapshotTestCase
+  - FLKAutoLayout (from `https://github.com/orta/FLKAutoLayout.git`, branch `v1`)
+  - Forgeries/Mocks
+  - FXBlurView
+  - glog (from `./externals/glog/glog.podspec`)
+  - Interstellar/Core (from `https://github.com/ashfurrow/Interstellar.git`, branch `observable-unsubscribe`)
+  - iRate
+  - ISO8601DateFormatter (from `https://github.com/orta/iso-8601-date-formatter`)
+  - JLRoutes (from `https://github.com/orta/JLRoutes.git`)
+  - JSDecoupledAppDelegate
+  - JWTDecode
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - KSDeferred
+  - Mantle (~> 1.5.6)
+  - MARKRangeSlider
+  - MMMarkdown
+  - MultiDelegate
+  - Nimble
+  - Nimble-Snapshots
+  - NPKeyboardLayoutGuide
+  - ObjectiveSugar
+  - OCMock
+  - OHHTTPStubs
+  - ORKeyboardReactingApplication
+  - ORStackView (= 2.0.3)
+  - Pulley (from `https://github.com/l2succes/Pulley.git`, branch `master`)
+  - Quick
+  - react-native-cameraroll (from `https://github.com/react-native-community/react-native-cameraroll`, tag `v1.0.5`)
+  - react-native-mapbox-gl (from `https://github.com/l2succes/react-native-mapbox-gl`, branch `fix-gesture-recognizer`)
+  - react-native-navigator-ios (from `https://github.com/ashfurrow/react-native-navigator-ios`, branch `license_podspec`)
+  - React/Core
+  - React/DevSupport
+  - ReactiveObjC
+  - RNSVG (from `https://github.com/react-native-community/react-native-svg.git`, tag `v9.4.0`)
+  - SDWebImage (>= 3.7.2)
+  - SentryReactNative (from `https://github.com/getsentry/react-native-sentry.git`, tag `v0.30.3`)
+  - Specta
+  - SSFadingScrollView (from `https://github.com/alloy/SSFadingScrollView.git`, branch `add-axial-support`)
+  - Starscream
+  - SwiftyJSON
+  - Then
+  - tipsi-stripe (from `https://github.com/ashfurrow/tipsi-stripe.git`, branch `fix-infinite-loop`)
+  - UICKeyChainStore
+  - "UIView+BooleanAnimations"
+  - VCRURLConnection
+  - "XCTest+OHHTTPStubSuiteCleanUp"
+
+SPEC REPOS:
+  https://github.com/artsy/Specs.git:
+    - Aerodramus
+    - "Artsy+UIColors"
+    - "Artsy+UIFonts"
+    - "Artsy+UILabels"
+    - Artsy-UIButtons
+    - DoubleConversion
+    - Emission
+    - Extraction
+    - Folly
+    - React
+    - yoga
+  https://github.com/cocoapods/specs.git:
+    - Adjust
+    - AFNetworkActivityLogger
+    - AFNetworking
+    - Analytics
+    - ARAnalytics
+    - Bolts
+    - boost-for-react-native
+    - DHCShakeNotifier
+    - EDColor
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSnapshotTestCase
+    - Forgeries
+    - FXBlurView
+    - iRate
+    - JSDecoupledAppDelegate
+    - JWTDecode
+    - KSCrash
+    - KSDeferred
+    - Mantle
+    - MARKRangeSlider
+    - MMMarkdown
+    - MultiDelegate
+    - Nimble
+    - Nimble-Snapshots
+    - NPKeyboardLayoutGuide
+    - ObjectiveSugar
+    - OCMock
+    - OHHTTPStubs
+    - ORKeyboardReactingApplication
+    - ORStackView
+    - Quick
+    - ReactiveObjC
+    - RSSwizzle
+    - SDWebImage
+    - Sentry
+    - Specta
+    - Starscream
+    - Stripe
+    - SwiftyJSON
+    - Then
+    - UICKeyChainStore
+    - "UIView+BooleanAnimations"
+    - VCRURLConnection
+    - "XCTest+OHHTTPStubSuiteCleanUp"
+
+EXTERNAL SOURCES:
+  AFOAuth1Client:
+    :git: https://github.com/lxcid/AFOAuth1Client.git
+    :tag: 0.4.0
+  ARCollectionViewMasonryLayout:
+    :git: https://github.com/ashfurrow/ARCollectionViewMasonryLayout
+  ARGenericTableViewController:
+    :git: https://github.com/orta/ARGenericTableViewController.git
+  ARTiledImageView:
+    :git: https://github.com/dblock/ARTiledImageView
+  CocoaLumberjack:
+    :git: https://github.com/CocoaLumberjack/CocoaLumberjack.git
+  FLKAutoLayout:
+    :branch: v1
+    :git: https://github.com/orta/FLKAutoLayout.git
+  glog:
+    :podspec: "./externals/glog/glog.podspec"
+  Interstellar:
+    :branch: observable-unsubscribe
+    :git: https://github.com/ashfurrow/Interstellar.git
+  ISO8601DateFormatter:
+    :git: https://github.com/orta/iso-8601-date-formatter
+  JLRoutes:
+    :git: https://github.com/orta/JLRoutes.git
+  Keys:
+    :path: Pods/CocoaPodsKeys
+  Pulley:
+    :branch: master
+    :git: https://github.com/l2succes/Pulley.git
+  react-native-cameraroll:
+    :git: https://github.com/react-native-community/react-native-cameraroll
+    :tag: v1.0.5
+  react-native-mapbox-gl:
+    :branch: fix-gesture-recognizer
+    :git: https://github.com/l2succes/react-native-mapbox-gl
+  react-native-navigator-ios:
+    :branch: license_podspec
+    :git: https://github.com/ashfurrow/react-native-navigator-ios
+  RNSVG:
+    :git: https://github.com/react-native-community/react-native-svg.git
+    :tag: v9.4.0
+  SentryReactNative:
+    :git: https://github.com/getsentry/react-native-sentry.git
+    :tag: v0.30.3
+  SSFadingScrollView:
+    :branch: add-axial-support
+    :git: https://github.com/alloy/SSFadingScrollView.git
+  tipsi-stripe:
+    :branch: fix-infinite-loop
+    :git: https://github.com/ashfurrow/tipsi-stripe.git
+
+CHECKOUT OPTIONS:
+  AFOAuth1Client:
+    :git: https://github.com/lxcid/AFOAuth1Client.git
+    :tag: 0.4.0
+  ARCollectionViewMasonryLayout:
+    :commit: f22180d0267567fd3db62f903eaef1119b5c1f2d
+    :git: https://github.com/ashfurrow/ARCollectionViewMasonryLayout
+  ARGenericTableViewController:
+    :commit: f4c9028754558e196ab9c5111dcd3a4229c5bedf
+    :git: https://github.com/orta/ARGenericTableViewController.git
+  ARTiledImageView:
+    :commit: 775bc29beb5953e381b2af64edbdfc310b90e074
+    :git: https://github.com/dblock/ARTiledImageView
+  CocoaLumberjack:
+    :commit: a09dd37888d9f51159c4926d4280794f915d726c
+    :git: https://github.com/CocoaLumberjack/CocoaLumberjack.git
+  FLKAutoLayout:
+    :commit: 4aa27fa1a9aba36d5465e6cd181ba4b78b0691d3
+    :git: https://github.com/orta/FLKAutoLayout.git
+  Interstellar:
+    :commit: ca22646f5a8449795fba3d3436a045da0aeb5949
+    :git: https://github.com/ashfurrow/Interstellar.git
+  ISO8601DateFormatter:
+    :commit: 1a48b819c85903ded669e74e476aceffebf311fc
+    :git: https://github.com/orta/iso-8601-date-formatter
+  JLRoutes:
+    :commit: 5a6df1a795766a4d3e586508e86ec9271d3ef3d9
+    :git: https://github.com/orta/JLRoutes.git
+  Pulley:
+    :commit: 23f1c0e8cad5a72d03176fe33535c14726e7a160
+    :git: https://github.com/l2succes/Pulley.git
+  react-native-cameraroll:
+    :git: https://github.com/react-native-community/react-native-cameraroll
+    :tag: v1.0.5
+  react-native-mapbox-gl:
+    :commit: 8ad2d3a2207da62024c82624c71df5bf5dabc126
+    :git: https://github.com/l2succes/react-native-mapbox-gl
+  react-native-navigator-ios:
+    :commit: 695725296669114ceeed76bba218fd91cde381c1
+    :git: https://github.com/ashfurrow/react-native-navigator-ios
+  RNSVG:
+    :git: https://github.com/react-native-community/react-native-svg.git
+    :tag: v9.4.0
+  SentryReactNative:
+    :git: https://github.com/getsentry/react-native-sentry.git
+    :tag: v0.30.3
+  SSFadingScrollView:
+    :commit: 3920e3582e46c9fe23b0d1200e28614ebd66d801
+    :git: https://github.com/alloy/SSFadingScrollView.git
+  tipsi-stripe:
+    :commit: bfebb733fb44d3e1d0522a38a317993f9c686422
+    :git: https://github.com/ashfurrow/tipsi-stripe.git
+
+SPEC CHECKSUMS:
+  Adjust: b1f2b0e0b426fa991d69ed7fc9de806cf6dff5a6
+  Aerodramus: 16b609776c84b6e0e785bb0ca1604b98473a8376
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFOAuth1Client: 07ccc935ba06ac8d023c16d39a5bdf04bc6f92e1
+  Analytics: 6541ce337e99d9f7a2240a8b3953940a7be5f998
+  ARAnalytics: 896e530551168721fbb8852e044b8afb9baffdde
+  ARCollectionViewMasonryLayout: 97cb468434b546b79a98c7c0908447ff803eb85e
+  ARGenericTableViewController: 61a0897ba66c35111b5d1cc3b44884282bd3c1a5
+  ARTiledImageView: 2db7735f5d3fcb4c859c912834a6a1bf20716377
+  "Artsy+UIColors": 31c03c4146f5e6618a9b950f37dfe02dd9ac09a6
+  "Artsy+UIFonts": 597c44f264aead6bdc21898b690addd90e14edbd
+  "Artsy+UILabels": 7cb6e290a4f70dddba037b7dbeb21e90b49d7275
+  Artsy-UIButtons: 3c396f0fad352a7b0332100e0ffcb0ca577e0082
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  CocoaLumberjack: 27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f
+  DHCShakeNotifier: 64048427ecaa763f2472d0032f58bf7a10074eee
+  DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  EDColor: c83f9a61f9f9b3c23d541f1feb561558e29cb088
+  Emission: a9aa4635d234c36031a812a2280a1ff8ebc9c74d
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  "Expecta+Snapshots": c343f410c7a6392f3e22e78f94c44b6c0749a516
+  Extraction: 642a73b8ccc7806e9a7daf95ebb4c14c374829f1
+  FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
+  FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
+  Folly: de497beb10f102453a1afa9edbf8cf8a251890de
+  Forgeries: 64ced144ea8341d89a7eec9d1d7986f0f1366250
+  FXBlurView: 5121730176fd52bcf7bffd0bd8c1485e8aabc3cb
+  glog: affb802cb73dc1156005a5fb19085008bf6ffd52
+  Interstellar: ab67502af03105f92100a043e178d188a1a437c9
+  iRate: 18fd2d3bd7d2ab01dcd801098cc2f5cbe9f25ffb
+  ISO8601DateFormatter: 8311a2d4e265b269b2fed7ab4db685dcb0a7ccb2
+  JLRoutes: 63d64c28b26bcdeb5f5b29e436f75b8358e8d6d1
+  JSDecoupledAppDelegate: 5905e144cbe6e0c889248eebbee6784510f315e1
+  JWTDecode: 178e47e5d28d3abcff778bacced8342858cd6cb5
+  Keys: af65e23feef2a047b3277b1ef0399f1209ef9d46
+  KSCrash: 5394936f41e5c1ef7b79cf79b30d53299b0c160e
+  KSDeferred: e72d005162986b2978e1e2eee17fbce1c6876cfe
+  Mantle: a197db93e0f1e36194b1fdbc078219a8492eaef2
+  MARKRangeSlider: dbf0878b03e921b52e4ef1e7766c1a8affb0c577
+  MMMarkdown: 44f1c5216cfcd70bc0e076b0f91876d6323a73b8
+  MultiDelegate: d224a4af1c098e1de280c3eaee2f16ebf8b046f4
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  NPKeyboardLayoutGuide: fea27700582570c8825a97b5cb96579a57bf0b73
+  ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
+  OCMock: a6a7dc0e3997fb9f35d99f72528698ebf60d64f2
+  OHHTTPStubs: c93230597bc5c8b74bcfdb403cc8773515b8b08c
+  ORKeyboardReactingApplication: 05af5ead40af968d5423d54b6a0dc050858b0e82
+  ORStackView: b9507271cb41fb9e0b3eecc6414d831201e7cf7c
+  Pulley: 2679a2b5a9714c5eb760b1fbb535d15c60e50fb4
+  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
+  React: 9d063e2f356c8cd2f54dd550d4507740037cbabe
+  react-native-cameraroll: b1faef9f2ea27b07bdf818b8043909a93f797eca
+  react-native-mapbox-gl: b7309e99290963cc7fe0e34db86c6e16890cfcee
+  react-native-navigator-ios: 93db84cc26b6f8d776e1f504c56082f593efcd09
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  RNSVG: 9cb6e958c4b6a1f58185ac72a350b148947d6fed
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Sentry: e2707f9a6b498277d9620a48fcb1bd3b655c8473
+  SentryReactNative: 3dff4e9bd82aa581dc64ff8d2524d7007cea076b
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  SSFadingScrollView: a2f142312afad23585e354a41a6ed337045e1aa3
+  Starscream: f5da93fe6984c77b694366bf7299b7dc63a76f26
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
+  tipsi-stripe: 2d0e33b5bb62168cd1f1777a904781725c5baf8a
+  UICKeyChainStore: e81dc3b58d56ffaed61ab6669eb97071e53fc377
+  "UIView+BooleanAnimations": a760be9a066036e55f298b7b7350a6cb14cfcd97
+  VCRURLConnection: accd771ebd4be11183a3e4d5a4403f180a9a235e
+  "XCTest+OHHTTPStubSuiteCleanUp": 4469ec8863c6bc022c5089a9b94233eb3416c5ee
+  yoga: 4ce3811b3db5f47fe1e125f15383003316a616b8
+
+PODFILE CHECKSUM: 23ca0886a0a3ae6b1e8abd87c2fb243b24ab9f2b
+
+COCOAPODS: 1.6.0.beta.1
