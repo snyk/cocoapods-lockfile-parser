@@ -109,8 +109,9 @@ export default class LockfileParser {
 
   /// This can be either an URL or the local repository name.
   private repositoryForPod(podName: string): string | undefined {
+    const rootName = rootSpecName(podName);
     const specRepoEntry = Object.entries(this.internalData['SPEC REPOS']).find(
-      ([, deps]) => (deps as string[]).includes(podName)
+      ([, deps]) => (deps as string[]).includes(rootName)
     );
     if (specRepoEntry) {
       return specRepoEntry[0];
