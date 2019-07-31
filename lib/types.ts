@@ -22,17 +22,17 @@ export interface Lockfile {
   'SPEC REPOS': {
     [key: string]: string[];
   };
-  'EXTERNAL SOURCES': {
+  'EXTERNAL SOURCES'?: {
     [key: string]: ExternalSourceInfo;
   };
-  'CHECKOUT OPTIONS': {
+  'CHECKOUT OPTIONS'?: {
     [key: string]: CheckoutOptions;
   };
   'SPEC CHECKSUMS': {
     [key: string]: string;
   };
-  'PODFILE CHECKSUM': string;
-  COCOAPODS: string;
+  'PODFILE CHECKSUM'?: string;
+  COCOAPODS?: string;
 }
 
 type PodEntry =

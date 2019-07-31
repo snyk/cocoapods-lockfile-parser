@@ -128,9 +128,12 @@ export default class LockfileParser {
   private externalSourceInfoForPod(
     podName: string
   ): ExternalSourceInfo | undefined {
-    const externalSourceEntry = this.internalData['EXTERNAL SOURCES'][
-      rootSpecName(podName)
-    ];
+    // Older Podfile.lock might not have this section yet.
+    const externalSources = this.internalData['EXTERNAL SOURCES'];
+    if (!externalSources) {
+      return undefined;
+    }
+    const externalSourceEntry = externalSources[rootSpecName(podName)];
     if (externalSourceEntry) {
       return externalSourceEntry[1];
     }
@@ -152,6 +155,6 @@ export default class LockfileParser {
   /// The CocoaPods version encoded in the lockfile which was used to
   /// create this resolution.
   private get cocoapodsVersion(): string {
-    return this.internalData.COCOAPODS;
+    return this.internalData.COCOAPODS || 'unknown';
   }
 }
