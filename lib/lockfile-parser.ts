@@ -87,9 +87,15 @@ export default class LockfileParser {
   /// Gathers relevant info from the lockfile and transform
   /// them into the expected labels data structure.
   private nodeInfoLabelsForPod(podName): NodeInfoLabels {
-    let nodeInfoLabels: NodeInfoLabels = {
-      repository: this.repositoryForPod(podName),
-    };
+    let nodeInfoLabels: NodeInfoLabels = {};
+
+    const repository = this.repositoryForPod(podName);
+    if (repository) {
+      nodeInfoLabels = {
+        ...nodeInfoLabels,
+        repository,
+      };
+    }
 
     const externalSourceInfo = this.externalSourceInfoForPod(podName);
     if (externalSourceInfo) {
