@@ -6,7 +6,7 @@ import {
   DepGraph,
   DepGraphBuilder,
 } from '@snyk/dep-graph';
-import { Lockfile, NodeInfoLabels, ExternalSourceInfo } from './types';
+import { Lockfile, NodeInfoLabels } from './types';
 import {
   pkgInfoFromDependencyString,
   pkgInfoFromSpecificationString,
@@ -97,19 +97,6 @@ export default class LockfileParser {
       };
     }
 
-    const externalSourceInfo = this.externalSourceInfoForPod(podName);
-    if (externalSourceInfo) {
-      nodeInfoLabels = {
-        ...nodeInfoLabels,
-        externalSourcePodspec: externalSourceInfo.podspec,
-        externalSourcePath: externalSourceInfo.path,
-        externalSourceGit: externalSourceInfo.git,
-        externalSourceTag: externalSourceInfo.tag,
-        externalSourceCommit: externalSourceInfo.commit,
-        externalSourceBranch: externalSourceInfo.branch,
-      };
-    }
-
     return nodeInfoLabels;
   }
 
@@ -121,21 +108,6 @@ export default class LockfileParser {
     );
     if (specRepoEntry) {
       return specRepoEntry[0];
-    }
-    return undefined;
-  }
-
-  private externalSourceInfoForPod(
-    podName: string
-  ): ExternalSourceInfo | undefined {
-    // Older Podfile.lock might not have this section yet.
-    const externalSources = this.internalData['EXTERNAL SOURCES'];
-    if (!externalSources) {
-      return undefined;
-    }
-    const externalSourceEntry = externalSources[rootSpecName(podName)];
-    if (externalSourceEntry) {
-      return externalSourceEntry[1];
     }
     return undefined;
   }

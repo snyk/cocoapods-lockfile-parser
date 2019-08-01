@@ -4,13 +4,7 @@ export interface NodeInfoLabels {
 
   repository?: string;
 
-  externalSourcePodspec?: string;
-  externalSourcePath?: string;
-  externalSourceGit?: string;
-  externalSourceTag?: string;
-  externalSourceCommit?: string;
-  externalSourceBranch?: string;
-
+  // TODO: Support externalSource
   // TODO: Support checkoutOptions
   // TODO: Support checksum
 }
@@ -21,12 +15,6 @@ export interface Lockfile {
   DEPENDENCIES: string[];
   'SPEC REPOS': {
     [key: string]: string[];
-  };
-  'EXTERNAL SOURCES'?: {
-    [key: string]: ExternalSourceInfo;
-  };
-  'CHECKOUT OPTIONS'?: {
-    [key: string]: CheckoutOptions;
   };
   'SPEC CHECKSUMS': {
     [key: string]: string;
@@ -40,19 +28,3 @@ type PodEntry =
   | {
       [key: string]: string[];
     };
-
-export type ExternalSourceInfoKey =
-  | 'podspec'
-  | 'path'
-  | 'git'
-  | 'tag'
-  | 'commit'
-  | 'branch';
-export type ExternalSourceInfo = {
-  [K in ExternalSourceInfoKey]?: string;
-};
-
-export type CheckoutOptionKey = ExternalSourceInfoKey;
-export type CheckoutOptions = {
-  [K in CheckoutOptionKey]?: string;
-};
