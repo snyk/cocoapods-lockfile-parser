@@ -1,5 +1,5 @@
 import 'source-map-support/register';
 
-export default function() {
+export default function(): boolean {
   return true;
 }
