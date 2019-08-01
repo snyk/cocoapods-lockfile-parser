@@ -3,12 +3,14 @@
   "description": "Generate a Snyk dependency tree from a Podfile.lock file",
   "main": "dist/index.js",
   "scripts": {
+    "format:check": "prettier --check '{lib,test}/**/*.{js,ts}'",
+    "format": "prettier --write '{lib,test}/**/*.{js,ts}'",
+    "lint": "npm run format:check && tslint -p tsconfig.json",
     "test": "npm run lint && npm run unit-test",
     "unit-test": "tap test/lib -R=spec --timeout=300 --node-path ts-node --test-file-pattern '/\\.[tj]s$/'",
-    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
     "build": "tsc",
     "build-watch": "tsc -w",
-    "prepare": "npm run build",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
   },
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@types/lodash": "^4.14.116",
     "@types/node": "^4.0.47",
+    "prettier": "^1.18.2",
     "tap": "github:snyk/node-tap#alternative-runtimes",
     "ts-node": "7.0.0",
     "tslint": "5.11.0",
