@@ -32,7 +32,7 @@ function fixtureTest(description, dir): void {
     const depGraph = parse(dir);
     if (regenerateFixtures) {
       const filePath = path.join(fixtureDir(dir), 'dep-graph.json');
-      fs.writeFileSync(filePath, JSON.stringify(depGraph), {
+      fs.writeFileSync(filePath, JSON.stringify(depGraph, null, 2), {
         encoding: 'utf8',
       });
 

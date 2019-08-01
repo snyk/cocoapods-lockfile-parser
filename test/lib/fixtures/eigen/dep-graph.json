@@ -4,164 +4,294 @@
     "name": "CocoaPods",
     "version": "1.6.0.beta.1",
     "repositories": [
-      { "alias": "https://github.com/artsy/Specs.git" },
-      { "alias": "https://github.com/cocoapods/specs.git" }
+      {
+        "alias": "https://github.com/artsy/Specs.git"
+      },
+      {
+        "alias": "https://github.com/cocoapods/specs.git"
+      }
     ]
   },
   "pkgs": [
-    { "id": "_root@0.0.0", "info": { "name": "_root", "version": "0.0.0" } },
+    {
+      "id": "_root@0.0.0",
+      "info": {
+        "name": "_root",
+        "version": "0.0.0"
+      }
+    },
     {
       "id": "Adjust@4.17.1",
-      "info": { "name": "Adjust", "version": "4.17.1" }
+      "info": {
+        "name": "Adjust",
+        "version": "4.17.1"
+      }
     },
     {
       "id": "Adjust/Core@4.17.1",
-      "info": { "name": "Adjust/Core", "version": "4.17.1" }
+      "info": {
+        "name": "Adjust/Core",
+        "version": "4.17.1"
+      }
     },
     {
       "id": "Aerodramus@1.0.0",
-      "info": { "name": "Aerodramus", "version": "1.0.0" }
+      "info": {
+        "name": "Aerodramus",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "AFNetworkActivityLogger@2.0.4",
-      "info": { "name": "AFNetworkActivityLogger", "version": "2.0.4" }
+      "info": {
+        "name": "AFNetworkActivityLogger",
+        "version": "2.0.4"
+      }
     },
     {
       "id": "AFNetworking@2.5.4",
-      "info": { "name": "AFNetworking", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/NSURLConnection@2.5.4",
-      "info": { "name": "AFNetworking/NSURLConnection", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/NSURLConnection",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/NSURLSession@2.5.4",
-      "info": { "name": "AFNetworking/NSURLSession", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/NSURLSession",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/Reachability@2.5.4",
-      "info": { "name": "AFNetworking/Reachability", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/Reachability",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/Security@2.5.4",
-      "info": { "name": "AFNetworking/Security", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/Security",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/Serialization@2.5.4",
-      "info": { "name": "AFNetworking/Serialization", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/Serialization",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFNetworking/UIKit@2.5.4",
-      "info": { "name": "AFNetworking/UIKit", "version": "2.5.4" }
+      "info": {
+        "name": "AFNetworking/UIKit",
+        "version": "2.5.4"
+      }
     },
     {
       "id": "AFOAuth1Client@0.4.0",
-      "info": { "name": "AFOAuth1Client", "version": "0.4.0" }
+      "info": {
+        "name": "AFOAuth1Client",
+        "version": "0.4.0"
+      }
     },
     {
       "id": "Analytics@3.6.9",
-      "info": { "name": "Analytics", "version": "3.6.9" }
+      "info": {
+        "name": "Analytics",
+        "version": "3.6.9"
+      }
     },
     {
       "id": "ARAnalytics/Adjust@5.0.1",
-      "info": { "name": "ARAnalytics/Adjust", "version": "5.0.1" }
+      "info": {
+        "name": "ARAnalytics/Adjust",
+        "version": "5.0.1"
+      }
     },
     {
       "id": "ARAnalytics/CoreIOS@5.0.1",
-      "info": { "name": "ARAnalytics/CoreIOS", "version": "5.0.1" }
+      "info": {
+        "name": "ARAnalytics/CoreIOS",
+        "version": "5.0.1"
+      }
     },
     {
       "id": "ARAnalytics/DSL@5.0.1",
-      "info": { "name": "ARAnalytics/DSL", "version": "5.0.1" }
+      "info": {
+        "name": "ARAnalytics/DSL",
+        "version": "5.0.1"
+      }
     },
     {
       "id": "ARAnalytics/Segmentio@5.0.1",
-      "info": { "name": "ARAnalytics/Segmentio", "version": "5.0.1" }
+      "info": {
+        "name": "ARAnalytics/Segmentio",
+        "version": "5.0.1"
+      }
     },
     {
       "id": "ARCollectionViewMasonryLayout@2.3.0",
-      "info": { "name": "ARCollectionViewMasonryLayout", "version": "2.3.0" }
+      "info": {
+        "name": "ARCollectionViewMasonryLayout",
+        "version": "2.3.0"
+      }
     },
     {
       "id": "ARGenericTableViewController@1.0.2",
-      "info": { "name": "ARGenericTableViewController", "version": "1.0.2" }
+      "info": {
+        "name": "ARGenericTableViewController",
+        "version": "1.0.2"
+      }
     },
     {
       "id": "ARTiledImageView@1.2.0",
-      "info": { "name": "ARTiledImageView", "version": "1.2.0" }
+      "info": {
+        "name": "ARTiledImageView",
+        "version": "1.2.0"
+      }
     },
     {
       "id": "Artsy+UIColors@3.1.0",
-      "info": { "name": "Artsy+UIColors", "version": "3.1.0" }
+      "info": {
+        "name": "Artsy+UIColors",
+        "version": "3.1.0"
+      }
     },
     {
       "id": "Artsy+UIFonts@3.3.3",
-      "info": { "name": "Artsy+UIFonts", "version": "3.3.3" }
+      "info": {
+        "name": "Artsy+UIFonts",
+        "version": "3.3.3"
+      }
     },
     {
       "id": "Artsy+UILabels@2.2.0",
-      "info": { "name": "Artsy+UILabels", "version": "2.2.0" }
+      "info": {
+        "name": "Artsy+UILabels",
+        "version": "2.2.0"
+      }
     },
     {
       "id": "Artsy-UIButtons@2.3.3",
-      "info": { "name": "Artsy-UIButtons", "version": "2.3.3" }
+      "info": {
+        "name": "Artsy-UIButtons",
+        "version": "2.3.3"
+      }
     },
-    { "id": "Bolts@1.9.0", "info": { "name": "Bolts", "version": "1.9.0" } },
+    {
+      "id": "Bolts@1.9.0",
+      "info": {
+        "name": "Bolts",
+        "version": "1.9.0"
+      }
+    },
     {
       "id": "Bolts/AppLinks@1.9.0",
-      "info": { "name": "Bolts/AppLinks", "version": "1.9.0" }
+      "info": {
+        "name": "Bolts/AppLinks",
+        "version": "1.9.0"
+      }
     },
     {
       "id": "Bolts/Tasks@1.9.0",
-      "info": { "name": "Bolts/Tasks", "version": "1.9.0" }
+      "info": {
+        "name": "Bolts/Tasks",
+        "version": "1.9.0"
+      }
     },
     {
       "id": "boost-for-react-native@1.63.0",
-      "info": { "name": "boost-for-react-native", "version": "1.63.0" }
+      "info": {
+        "name": "boost-for-react-native",
+        "version": "1.63.0"
+      }
     },
     {
       "id": "CocoaLumberjack@2.0.1",
-      "info": { "name": "CocoaLumberjack", "version": "2.0.1" }
+      "info": {
+        "name": "CocoaLumberjack",
+        "version": "2.0.1"
+      }
     },
     {
       "id": "CocoaLumberjack/Core@2.0.1",
-      "info": { "name": "CocoaLumberjack/Core", "version": "2.0.1" }
+      "info": {
+        "name": "CocoaLumberjack/Core",
+        "version": "2.0.1"
+      }
     },
     {
       "id": "CocoaLumberjack/Default@2.0.1",
-      "info": { "name": "CocoaLumberjack/Default", "version": "2.0.1" }
+      "info": {
+        "name": "CocoaLumberjack/Default",
+        "version": "2.0.1"
+      }
     },
     {
       "id": "CocoaLumberjack/Extensions@2.0.1",
-      "info": { "name": "CocoaLumberjack/Extensions", "version": "2.0.1" }
+      "info": {
+        "name": "CocoaLumberjack/Extensions",
+        "version": "2.0.1"
+      }
     },
     {
       "id": "DHCShakeNotifier@0.2.0",
-      "info": { "name": "DHCShakeNotifier", "version": "0.2.0" }
+      "info": {
+        "name": "DHCShakeNotifier",
+        "version": "0.2.0"
+      }
     },
     {
       "id": "DoubleConversion@1.1.6",
-      "info": { "name": "DoubleConversion", "version": "1.1.6" }
+      "info": {
+        "name": "DoubleConversion",
+        "version": "1.1.6"
+      }
     },
     {
       "id": "EDColor@1.0.0",
-      "info": { "name": "EDColor", "version": "1.0.0" }
+      "info": {
+        "name": "EDColor",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "Emission@1.12.11",
-      "info": { "name": "Emission", "version": "1.12.11" }
+      "info": {
+        "name": "Emission",
+        "version": "1.12.11"
+      }
     },
     {
       "id": "Expecta@1.0.5",
-      "info": { "name": "Expecta", "version": "1.0.5" }
+      "info": {
+        "name": "Expecta",
+        "version": "1.0.5"
+      }
     },
     {
       "id": "Expecta+Snapshots@3.0.0",
-      "info": { "name": "Expecta+Snapshots", "version": "3.0.0" }
+      "info": {
+        "name": "Expecta+Snapshots",
+        "version": "3.0.0"
+      }
     },
     {
       "id": "Extraction@1.2.4",
-      "info": { "name": "Extraction", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "Extraction/ARAnimationContinuation@1.2.4",
@@ -172,102 +302,192 @@
     },
     {
       "id": "Extraction/ARLoadFailureView@1.2.4",
-      "info": { "name": "Extraction/ARLoadFailureView", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction/ARLoadFailureView",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "Extraction/ARSpinner@1.2.4",
-      "info": { "name": "Extraction/ARSpinner", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction/ARSpinner",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "Extraction/ARSwitchView@1.2.4",
-      "info": { "name": "Extraction/ARSwitchView", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction/ARSwitchView",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "Extraction/UILabel+Typography@1.2.4",
-      "info": { "name": "Extraction/UILabel+Typography", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction/UILabel+Typography",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "Extraction/UIView+ARSpinner@1.2.4",
-      "info": { "name": "Extraction/UIView+ARSpinner", "version": "1.2.4" }
+      "info": {
+        "name": "Extraction/UIView+ARSpinner",
+        "version": "1.2.4"
+      }
     },
     {
       "id": "FBSDKCoreKit@4.37.0",
-      "info": { "name": "FBSDKCoreKit", "version": "4.37.0" }
+      "info": {
+        "name": "FBSDKCoreKit",
+        "version": "4.37.0"
+      }
     },
     {
       "id": "FBSDKLoginKit@4.37.0",
-      "info": { "name": "FBSDKLoginKit", "version": "4.37.0" }
+      "info": {
+        "name": "FBSDKLoginKit",
+        "version": "4.37.0"
+      }
     },
     {
       "id": "FBSnapshotTestCase@2.1.4",
-      "info": { "name": "FBSnapshotTestCase", "version": "2.1.4" }
+      "info": {
+        "name": "FBSnapshotTestCase",
+        "version": "2.1.4"
+      }
     },
     {
       "id": "FBSnapshotTestCase/Core@2.1.4",
-      "info": { "name": "FBSnapshotTestCase/Core", "version": "2.1.4" }
+      "info": {
+        "name": "FBSnapshotTestCase/Core",
+        "version": "2.1.4"
+      }
     },
     {
       "id": "FBSnapshotTestCase/SwiftSupport@2.1.4",
-      "info": { "name": "FBSnapshotTestCase/SwiftSupport", "version": "2.1.4" }
+      "info": {
+        "name": "FBSnapshotTestCase/SwiftSupport",
+        "version": "2.1.4"
+      }
     },
     {
       "id": "FLKAutoLayout@1.0.0",
-      "info": { "name": "FLKAutoLayout", "version": "1.0.0" }
+      "info": {
+        "name": "FLKAutoLayout",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "Folly@2018.10.22.00",
-      "info": { "name": "Folly", "version": "2018.10.22.00" }
+      "info": {
+        "name": "Folly",
+        "version": "2018.10.22.00"
+      }
     },
     {
       "id": "Forgeries/Core@1.0.0",
-      "info": { "name": "Forgeries/Core", "version": "1.0.0" }
+      "info": {
+        "name": "Forgeries/Core",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "Forgeries/Mocks@1.0.0",
-      "info": { "name": "Forgeries/Mocks", "version": "1.0.0" }
+      "info": {
+        "name": "Forgeries/Mocks",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "FXBlurView@1.6.1",
-      "info": { "name": "FXBlurView", "version": "1.6.1" }
+      "info": {
+        "name": "FXBlurView",
+        "version": "1.6.1"
+      }
     },
-    { "id": "glog@0.3.5", "info": { "name": "glog", "version": "0.3.5" } },
+    {
+      "id": "glog@0.3.5",
+      "info": {
+        "name": "glog",
+        "version": "0.3.5"
+      }
+    },
     {
       "id": "Interstellar/Core@2.0.0",
-      "info": { "name": "Interstellar/Core", "version": "2.0.0" }
+      "info": {
+        "name": "Interstellar/Core",
+        "version": "2.0.0"
+      }
     },
-    { "id": "iRate@1.10.2", "info": { "name": "iRate", "version": "1.10.2" } },
+    {
+      "id": "iRate@1.10.2",
+      "info": {
+        "name": "iRate",
+        "version": "1.10.2"
+      }
+    },
     {
       "id": "ISO8601DateFormatter@0.7.1",
-      "info": { "name": "ISO8601DateFormatter", "version": "0.7.1" }
+      "info": {
+        "name": "ISO8601DateFormatter",
+        "version": "0.7.1"
+      }
     },
     {
       "id": "JLRoutes@2.0.0",
-      "info": { "name": "JLRoutes", "version": "2.0.0" }
+      "info": {
+        "name": "JLRoutes",
+        "version": "2.0.0"
+      }
     },
     {
       "id": "JSDecoupledAppDelegate@1.2.0",
-      "info": { "name": "JSDecoupledAppDelegate", "version": "1.2.0" }
+      "info": {
+        "name": "JSDecoupledAppDelegate",
+        "version": "1.2.0"
+      }
     },
     {
       "id": "JWTDecode@2.0.0",
-      "info": { "name": "JWTDecode", "version": "2.0.0" }
+      "info": {
+        "name": "JWTDecode",
+        "version": "2.0.0"
+      }
     },
-    { "id": "Keys@1.0.0", "info": { "name": "Keys", "version": "1.0.0" } },
+    {
+      "id": "Keys@1.0.0",
+      "info": {
+        "name": "Keys",
+        "version": "1.0.0"
+      }
+    },
     {
       "id": "KSCrash/Core@1.15.18",
-      "info": { "name": "KSCrash/Core", "version": "1.15.18" }
+      "info": {
+        "name": "KSCrash/Core",
+        "version": "1.15.18"
+      }
     },
     {
       "id": "KSCrash/Recording@1.15.18",
-      "info": { "name": "KSCrash/Recording", "version": "1.15.18" }
+      "info": {
+        "name": "KSCrash/Recording",
+        "version": "1.15.18"
+      }
     },
     {
       "id": "KSCrash/Recording/Tools@1.15.18",
-      "info": { "name": "KSCrash/Recording/Tools", "version": "1.15.18" }
+      "info": {
+        "name": "KSCrash/Recording/Tools",
+        "version": "1.15.18"
+      }
     },
     {
       "id": "KSCrash/Reporting/Filters/Base@1.15.18",
-      "info": { "name": "KSCrash/Reporting/Filters/Base", "version": "1.15.18" }
+      "info": {
+        "name": "KSCrash/Reporting/Filters/Base",
+        "version": "1.15.18"
+      }
     },
     {
       "id": "KSCrash/Reporting/Filters/Basic@1.15.18",
@@ -278,213 +498,423 @@
     },
     {
       "id": "KSDeferred@0.2.0",
-      "info": { "name": "KSDeferred", "version": "0.2.0" }
+      "info": {
+        "name": "KSDeferred",
+        "version": "0.2.0"
+      }
     },
-    { "id": "Mantle@1.5.6", "info": { "name": "Mantle", "version": "1.5.6" } },
+    {
+      "id": "Mantle@1.5.6",
+      "info": {
+        "name": "Mantle",
+        "version": "1.5.6"
+      }
+    },
     {
       "id": "Mantle/extobjc@1.5.6",
-      "info": { "name": "Mantle/extobjc", "version": "1.5.6" }
+      "info": {
+        "name": "Mantle/extobjc",
+        "version": "1.5.6"
+      }
     },
     {
       "id": "MARKRangeSlider@1.0.1",
-      "info": { "name": "MARKRangeSlider", "version": "1.0.1" }
+      "info": {
+        "name": "MARKRangeSlider",
+        "version": "1.0.1"
+      }
     },
     {
       "id": "MMMarkdown@0.4",
-      "info": { "name": "MMMarkdown", "version": "0.4" }
+      "info": {
+        "name": "MMMarkdown",
+        "version": "0.4"
+      }
     },
     {
       "id": "MultiDelegate@0.0.2",
-      "info": { "name": "MultiDelegate", "version": "0.0.2" }
+      "info": {
+        "name": "MultiDelegate",
+        "version": "0.0.2"
+      }
     },
-    { "id": "Nimble@7.3.4", "info": { "name": "Nimble", "version": "7.3.4" } },
+    {
+      "id": "Nimble@7.3.4",
+      "info": {
+        "name": "Nimble",
+        "version": "7.3.4"
+      }
+    },
     {
       "id": "Nimble-Snapshots@6.3.0",
-      "info": { "name": "Nimble-Snapshots", "version": "6.3.0" }
+      "info": {
+        "name": "Nimble-Snapshots",
+        "version": "6.3.0"
+      }
     },
     {
       "id": "Nimble-Snapshots/Core@6.3.0",
-      "info": { "name": "Nimble-Snapshots/Core", "version": "6.3.0" }
+      "info": {
+        "name": "Nimble-Snapshots/Core",
+        "version": "6.3.0"
+      }
     },
     {
       "id": "NPKeyboardLayoutGuide@1.0.0",
-      "info": { "name": "NPKeyboardLayoutGuide", "version": "1.0.0" }
+      "info": {
+        "name": "NPKeyboardLayoutGuide",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "ObjectiveSugar@1.1.0",
-      "info": { "name": "ObjectiveSugar", "version": "1.1.0" }
+      "info": {
+        "name": "ObjectiveSugar",
+        "version": "1.1.0"
+      }
     },
-    { "id": "OCMock@2.2.4", "info": { "name": "OCMock", "version": "2.2.4" } },
+    {
+      "id": "OCMock@2.2.4",
+      "info": {
+        "name": "OCMock",
+        "version": "2.2.4"
+      }
+    },
     {
       "id": "OHHTTPStubs@3.1.2",
-      "info": { "name": "OHHTTPStubs", "version": "3.1.2" }
+      "info": {
+        "name": "OHHTTPStubs",
+        "version": "3.1.2"
+      }
     },
     {
       "id": "ORKeyboardReactingApplication@0.5.3",
-      "info": { "name": "ORKeyboardReactingApplication", "version": "0.5.3" }
+      "info": {
+        "name": "ORKeyboardReactingApplication",
+        "version": "0.5.3"
+      }
     },
     {
       "id": "ORStackView@2.0.3",
-      "info": { "name": "ORStackView", "version": "2.0.3" }
+      "info": {
+        "name": "ORStackView",
+        "version": "2.0.3"
+      }
     },
-    { "id": "Pulley@2.6.2", "info": { "name": "Pulley", "version": "2.6.2" } },
-    { "id": "Quick@2.0.0", "info": { "name": "Quick", "version": "2.0.0" } },
-    { "id": "React@0.59.2", "info": { "name": "React", "version": "0.59.2" } },
+    {
+      "id": "Pulley@2.6.2",
+      "info": {
+        "name": "Pulley",
+        "version": "2.6.2"
+      }
+    },
+    {
+      "id": "Quick@2.0.0",
+      "info": {
+        "name": "Quick",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "id": "React@0.59.2",
+      "info": {
+        "name": "React",
+        "version": "0.59.2"
+      }
+    },
     {
       "id": "react-native-cameraroll@1.0.5",
-      "info": { "name": "react-native-cameraroll", "version": "1.0.5" }
+      "info": {
+        "name": "react-native-cameraroll",
+        "version": "1.0.5"
+      }
     },
     {
       "id": "react-native-mapbox-gl@6.1.4",
-      "info": { "name": "react-native-mapbox-gl", "version": "6.1.4" }
+      "info": {
+        "name": "react-native-mapbox-gl",
+        "version": "6.1.4"
+      }
     },
     {
       "id": "react-native-navigator-ios@1.0.0",
-      "info": { "name": "react-native-navigator-ios", "version": "1.0.0" }
+      "info": {
+        "name": "react-native-navigator-ios",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "React/Core@0.59.2",
-      "info": { "name": "React/Core", "version": "0.59.2" }
+      "info": {
+        "name": "React/Core",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/CxxBridge@0.59.2",
-      "info": { "name": "React/CxxBridge", "version": "0.59.2" }
+      "info": {
+        "name": "React/CxxBridge",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/cxxreact@0.59.2",
-      "info": { "name": "React/cxxreact", "version": "0.59.2" }
+      "info": {
+        "name": "React/cxxreact",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/DevSupport@0.59.2",
-      "info": { "name": "React/DevSupport", "version": "0.59.2" }
+      "info": {
+        "name": "React/DevSupport",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/fishhook@0.59.2",
-      "info": { "name": "React/fishhook", "version": "0.59.2" }
+      "info": {
+        "name": "React/fishhook",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/jsi@0.59.2",
-      "info": { "name": "React/jsi", "version": "0.59.2" }
+      "info": {
+        "name": "React/jsi",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/jsiexecutor@0.59.2",
-      "info": { "name": "React/jsiexecutor", "version": "0.59.2" }
+      "info": {
+        "name": "React/jsiexecutor",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/jsinspector@0.59.2",
-      "info": { "name": "React/jsinspector", "version": "0.59.2" }
+      "info": {
+        "name": "React/jsinspector",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTActionSheet@0.59.2",
-      "info": { "name": "React/RCTActionSheet", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTActionSheet",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTAnimation@0.59.2",
-      "info": { "name": "React/RCTAnimation", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTAnimation",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTBlob@0.59.2",
-      "info": { "name": "React/RCTBlob", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTBlob",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTCameraRoll@0.59.2",
-      "info": { "name": "React/RCTCameraRoll", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTCameraRoll",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTGeolocation@0.59.2",
-      "info": { "name": "React/RCTGeolocation", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTGeolocation",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTImage@0.59.2",
-      "info": { "name": "React/RCTImage", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTImage",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTLinkingIOS@0.59.2",
-      "info": { "name": "React/RCTLinkingIOS", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTLinkingIOS",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTNetwork@0.59.2",
-      "info": { "name": "React/RCTNetwork", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTNetwork",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTText@0.59.2",
-      "info": { "name": "React/RCTText", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTText",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "React/RCTWebSocket@0.59.2",
-      "info": { "name": "React/RCTWebSocket", "version": "0.59.2" }
+      "info": {
+        "name": "React/RCTWebSocket",
+        "version": "0.59.2"
+      }
     },
     {
       "id": "ReactiveObjC@2.1.2",
-      "info": { "name": "ReactiveObjC", "version": "2.1.2" }
+      "info": {
+        "name": "ReactiveObjC",
+        "version": "2.1.2"
+      }
     },
-    { "id": "RNSVG@9.4.0", "info": { "name": "RNSVG", "version": "9.4.0" } },
+    {
+      "id": "RNSVG@9.4.0",
+      "info": {
+        "name": "RNSVG",
+        "version": "9.4.0"
+      }
+    },
     {
       "id": "RSSwizzle@0.1.0",
-      "info": { "name": "RSSwizzle", "version": "0.1.0" }
+      "info": {
+        "name": "RSSwizzle",
+        "version": "0.1.0"
+      }
     },
     {
       "id": "SDWebImage@3.7.3",
-      "info": { "name": "SDWebImage", "version": "3.7.3" }
+      "info": {
+        "name": "SDWebImage",
+        "version": "3.7.3"
+      }
     },
     {
       "id": "SDWebImage/Core@3.7.3",
-      "info": { "name": "SDWebImage/Core", "version": "3.7.3" }
+      "info": {
+        "name": "SDWebImage/Core",
+        "version": "3.7.3"
+      }
     },
-    { "id": "Sentry@3.9.1", "info": { "name": "Sentry", "version": "3.9.1" } },
+    {
+      "id": "Sentry@3.9.1",
+      "info": {
+        "name": "Sentry",
+        "version": "3.9.1"
+      }
+    },
     {
       "id": "Sentry/Core@3.9.1",
-      "info": { "name": "Sentry/Core", "version": "3.9.1" }
+      "info": {
+        "name": "Sentry/Core",
+        "version": "3.9.1"
+      }
     },
     {
       "id": "Sentry/KSCrash@3.9.1",
-      "info": { "name": "Sentry/KSCrash", "version": "3.9.1" }
+      "info": {
+        "name": "Sentry/KSCrash",
+        "version": "3.9.1"
+      }
     },
     {
       "id": "SentryReactNative@0.30.3",
-      "info": { "name": "SentryReactNative", "version": "0.30.3" }
+      "info": {
+        "name": "SentryReactNative",
+        "version": "0.30.3"
+      }
     },
-    { "id": "Specta@1.0.5", "info": { "name": "Specta", "version": "1.0.5" } },
+    {
+      "id": "Specta@1.0.5",
+      "info": {
+        "name": "Specta",
+        "version": "1.0.5"
+      }
+    },
     {
       "id": "SSFadingScrollView@1.1.0",
-      "info": { "name": "SSFadingScrollView", "version": "1.1.0" }
+      "info": {
+        "name": "SSFadingScrollView",
+        "version": "1.1.0"
+      }
     },
     {
       "id": "Starscream@3.0.4",
-      "info": { "name": "Starscream", "version": "3.0.4" }
+      "info": {
+        "name": "Starscream",
+        "version": "3.0.4"
+      }
     },
     {
       "id": "Stripe@14.0.0",
-      "info": { "name": "Stripe", "version": "14.0.0" }
+      "info": {
+        "name": "Stripe",
+        "version": "14.0.0"
+      }
     },
     {
       "id": "SwiftyJSON@4.0.0",
-      "info": { "name": "SwiftyJSON", "version": "4.0.0" }
+      "info": {
+        "name": "SwiftyJSON",
+        "version": "4.0.0"
+      }
     },
-    { "id": "Then@2.3.0", "info": { "name": "Then", "version": "2.3.0" } },
+    {
+      "id": "Then@2.3.0",
+      "info": {
+        "name": "Then",
+        "version": "2.3.0"
+      }
+    },
     {
       "id": "tipsi-stripe@7.5.0",
-      "info": { "name": "tipsi-stripe", "version": "7.5.0" }
+      "info": {
+        "name": "tipsi-stripe",
+        "version": "7.5.0"
+      }
     },
     {
       "id": "UICKeyChainStore@1.0.5",
-      "info": { "name": "UICKeyChainStore", "version": "1.0.5" }
+      "info": {
+        "name": "UICKeyChainStore",
+        "version": "1.0.5"
+      }
     },
     {
       "id": "UIView+BooleanAnimations@1.0.2",
-      "info": { "name": "UIView+BooleanAnimations", "version": "1.0.2" }
+      "info": {
+        "name": "UIView+BooleanAnimations",
+        "version": "1.0.2"
+      }
     },
     {
       "id": "VCRURLConnection@0.2.0",
-      "info": { "name": "VCRURLConnection", "version": "0.2.0" }
+      "info": {
+        "name": "VCRURLConnection",
+        "version": "0.2.0"
+      }
     },
     {
       "id": "XCTest+OHHTTPStubSuiteCleanUp@1.0.0",
-      "info": { "name": "XCTest+OHHTTPStubSuiteCleanUp", "version": "1.0.0" }
+      "info": {
+        "name": "XCTest+OHHTTPStubSuiteCleanUp",
+        "version": "1.0.0"
+      }
     },
     {
       "id": "yoga@0.59.2.React",
-      "info": { "name": "yoga", "version": "0.59.2.React" }
+      "info": {
+        "name": "yoga",
+        "version": "0.59.2.React"
+      }
     }
   ],
   "graph": {
@@ -494,238 +924,508 @@
         "nodeId": "root-node",
         "pkgId": "_root@0.0.0",
         "deps": [
-          { "nodeId": "Aerodramus" },
-          { "nodeId": "AFNetworkActivityLogger" },
-          { "nodeId": "AFNetworking" },
-          { "nodeId": "AFOAuth1Client" },
-          { "nodeId": "Analytics" },
-          { "nodeId": "ARAnalytics/Adjust" },
-          { "nodeId": "ARAnalytics/DSL" },
-          { "nodeId": "ARAnalytics/Segmentio" },
-          { "nodeId": "ARCollectionViewMasonryLayout" },
-          { "nodeId": "ARGenericTableViewController" },
-          { "nodeId": "ARTiledImageView" },
-          { "nodeId": "Artsy+UIColors" },
-          { "nodeId": "Artsy+UIFonts" },
-          { "nodeId": "Artsy+UILabels" },
-          { "nodeId": "Artsy-UIButtons" },
-          { "nodeId": "CocoaLumberjack" },
-          { "nodeId": "DHCShakeNotifier" },
-          { "nodeId": "EDColor" },
-          { "nodeId": "Emission" },
-          { "nodeId": "Expecta" },
-          { "nodeId": "Expecta+Snapshots" },
-          { "nodeId": "Extraction" },
-          { "nodeId": "FBSDKCoreKit" },
-          { "nodeId": "FBSDKLoginKit" },
-          { "nodeId": "FBSnapshotTestCase" },
-          { "nodeId": "FLKAutoLayout" },
-          { "nodeId": "Forgeries/Mocks" },
-          { "nodeId": "FXBlurView" },
-          { "nodeId": "glog" },
-          { "nodeId": "Interstellar/Core" },
-          { "nodeId": "iRate" },
-          { "nodeId": "ISO8601DateFormatter" },
-          { "nodeId": "JLRoutes" },
-          { "nodeId": "JSDecoupledAppDelegate" },
-          { "nodeId": "JWTDecode" },
-          { "nodeId": "Keys" },
-          { "nodeId": "KSDeferred" },
-          { "nodeId": "Mantle" },
-          { "nodeId": "MARKRangeSlider" },
-          { "nodeId": "MMMarkdown" },
-          { "nodeId": "MultiDelegate" },
-          { "nodeId": "Nimble" },
-          { "nodeId": "Nimble-Snapshots" },
-          { "nodeId": "NPKeyboardLayoutGuide" },
-          { "nodeId": "ObjectiveSugar" },
-          { "nodeId": "OCMock" },
-          { "nodeId": "OHHTTPStubs" },
-          { "nodeId": "ORKeyboardReactingApplication" },
-          { "nodeId": "ORStackView" },
-          { "nodeId": "Pulley" },
-          { "nodeId": "Quick" },
-          { "nodeId": "react-native-cameraroll" },
-          { "nodeId": "react-native-mapbox-gl" },
-          { "nodeId": "react-native-navigator-ios" },
-          { "nodeId": "React/Core" },
-          { "nodeId": "React/DevSupport" },
-          { "nodeId": "ReactiveObjC" },
-          { "nodeId": "RNSVG" },
-          { "nodeId": "SDWebImage" },
-          { "nodeId": "SentryReactNative" },
-          { "nodeId": "Specta" },
-          { "nodeId": "SSFadingScrollView" },
-          { "nodeId": "Starscream" },
-          { "nodeId": "SwiftyJSON" },
-          { "nodeId": "Then" },
-          { "nodeId": "tipsi-stripe" },
-          { "nodeId": "UICKeyChainStore" },
-          { "nodeId": "UIView+BooleanAnimations" },
-          { "nodeId": "VCRURLConnection" },
-          { "nodeId": "XCTest+OHHTTPStubSuiteCleanUp" }
+          {
+            "nodeId": "Aerodramus"
+          },
+          {
+            "nodeId": "AFNetworkActivityLogger"
+          },
+          {
+            "nodeId": "AFNetworking"
+          },
+          {
+            "nodeId": "AFOAuth1Client"
+          },
+          {
+            "nodeId": "Analytics"
+          },
+          {
+            "nodeId": "ARAnalytics/Adjust"
+          },
+          {
+            "nodeId": "ARAnalytics/DSL"
+          },
+          {
+            "nodeId": "ARAnalytics/Segmentio"
+          },
+          {
+            "nodeId": "ARCollectionViewMasonryLayout"
+          },
+          {
+            "nodeId": "ARGenericTableViewController"
+          },
+          {
+            "nodeId": "ARTiledImageView"
+          },
+          {
+            "nodeId": "Artsy+UIColors"
+          },
+          {
+            "nodeId": "Artsy+UIFonts"
+          },
+          {
+            "nodeId": "Artsy+UILabels"
+          },
+          {
+            "nodeId": "Artsy-UIButtons"
+          },
+          {
+            "nodeId": "CocoaLumberjack"
+          },
+          {
+            "nodeId": "DHCShakeNotifier"
+          },
+          {
+            "nodeId": "EDColor"
+          },
+          {
+            "nodeId": "Emission"
+          },
+          {
+            "nodeId": "Expecta"
+          },
+          {
+            "nodeId": "Expecta+Snapshots"
+          },
+          {
+            "nodeId": "Extraction"
+          },
+          {
+            "nodeId": "FBSDKCoreKit"
+          },
+          {
+            "nodeId": "FBSDKLoginKit"
+          },
+          {
+            "nodeId": "FBSnapshotTestCase"
+          },
+          {
+            "nodeId": "FLKAutoLayout"
+          },
+          {
+            "nodeId": "Forgeries/Mocks"
+          },
+          {
+            "nodeId": "FXBlurView"
+          },
+          {
+            "nodeId": "glog"
+          },
+          {
+            "nodeId": "Interstellar/Core"
+          },
+          {
+            "nodeId": "iRate"
+          },
+          {
+            "nodeId": "ISO8601DateFormatter"
+          },
+          {
+            "nodeId": "JLRoutes"
+          },
+          {
+            "nodeId": "JSDecoupledAppDelegate"
+          },
+          {
+            "nodeId": "JWTDecode"
+          },
+          {
+            "nodeId": "Keys"
+          },
+          {
+            "nodeId": "KSDeferred"
+          },
+          {
+            "nodeId": "Mantle"
+          },
+          {
+            "nodeId": "MARKRangeSlider"
+          },
+          {
+            "nodeId": "MMMarkdown"
+          },
+          {
+            "nodeId": "MultiDelegate"
+          },
+          {
+            "nodeId": "Nimble"
+          },
+          {
+            "nodeId": "Nimble-Snapshots"
+          },
+          {
+            "nodeId": "NPKeyboardLayoutGuide"
+          },
+          {
+            "nodeId": "ObjectiveSugar"
+          },
+          {
+            "nodeId": "OCMock"
+          },
+          {
+            "nodeId": "OHHTTPStubs"
+          },
+          {
+            "nodeId": "ORKeyboardReactingApplication"
+          },
+          {
+            "nodeId": "ORStackView"
+          },
+          {
+            "nodeId": "Pulley"
+          },
+          {
+            "nodeId": "Quick"
+          },
+          {
+            "nodeId": "react-native-cameraroll"
+          },
+          {
+            "nodeId": "react-native-mapbox-gl"
+          },
+          {
+            "nodeId": "react-native-navigator-ios"
+          },
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/DevSupport"
+          },
+          {
+            "nodeId": "ReactiveObjC"
+          },
+          {
+            "nodeId": "RNSVG"
+          },
+          {
+            "nodeId": "SDWebImage"
+          },
+          {
+            "nodeId": "SentryReactNative"
+          },
+          {
+            "nodeId": "Specta"
+          },
+          {
+            "nodeId": "SSFadingScrollView"
+          },
+          {
+            "nodeId": "Starscream"
+          },
+          {
+            "nodeId": "SwiftyJSON"
+          },
+          {
+            "nodeId": "Then"
+          },
+          {
+            "nodeId": "tipsi-stripe"
+          },
+          {
+            "nodeId": "UICKeyChainStore"
+          },
+          {
+            "nodeId": "UIView+BooleanAnimations"
+          },
+          {
+            "nodeId": "VCRURLConnection"
+          },
+          {
+            "nodeId": "XCTest+OHHTTPStubSuiteCleanUp"
+          }
         ]
       },
       {
         "nodeId": "Adjust",
         "pkgId": "Adjust@4.17.1",
-        "deps": [{ "nodeId": "Adjust/Core" }],
+        "deps": [
+          {
+            "nodeId": "Adjust/Core"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Adjust/Core",
         "pkgId": "Adjust/Core@4.17.1",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "Aerodramus",
         "pkgId": "Aerodramus@1.0.0",
-        "deps": [{ "nodeId": "ISO8601DateFormatter" }],
+        "deps": [
+          {
+            "nodeId": "ISO8601DateFormatter"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "AFNetworkActivityLogger",
         "pkgId": "AFNetworkActivityLogger@2.0.4",
         "deps": [
-          { "nodeId": "AFNetworking/NSURLConnection" },
-          { "nodeId": "AFNetworking/NSURLSession" }
+          {
+            "nodeId": "AFNetworking/NSURLConnection"
+          },
+          {
+            "nodeId": "AFNetworking/NSURLSession"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "AFNetworking",
         "pkgId": "AFNetworking@2.5.4",
         "deps": [
-          { "nodeId": "AFNetworking/NSURLConnection" },
-          { "nodeId": "AFNetworking/NSURLSession" },
-          { "nodeId": "AFNetworking/Reachability" },
-          { "nodeId": "AFNetworking/Security" },
-          { "nodeId": "AFNetworking/Serialization" },
-          { "nodeId": "AFNetworking/UIKit" }
+          {
+            "nodeId": "AFNetworking/NSURLConnection"
+          },
+          {
+            "nodeId": "AFNetworking/NSURLSession"
+          },
+          {
+            "nodeId": "AFNetworking/Reachability"
+          },
+          {
+            "nodeId": "AFNetworking/Security"
+          },
+          {
+            "nodeId": "AFNetworking/Serialization"
+          },
+          {
+            "nodeId": "AFNetworking/UIKit"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "AFNetworking/NSURLConnection",
         "pkgId": "AFNetworking/NSURLConnection@2.5.4",
         "deps": [
-          { "nodeId": "AFNetworking/Reachability" },
-          { "nodeId": "AFNetworking/Security" },
-          { "nodeId": "AFNetworking/Serialization" }
+          {
+            "nodeId": "AFNetworking/Reachability"
+          },
+          {
+            "nodeId": "AFNetworking/Security"
+          },
+          {
+            "nodeId": "AFNetworking/Serialization"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFNetworking/NSURLSession",
         "pkgId": "AFNetworking/NSURLSession@2.5.4",
         "deps": [
-          { "nodeId": "AFNetworking/Reachability" },
-          { "nodeId": "AFNetworking/Security" },
-          { "nodeId": "AFNetworking/Serialization" }
+          {
+            "nodeId": "AFNetworking/Reachability"
+          },
+          {
+            "nodeId": "AFNetworking/Security"
+          },
+          {
+            "nodeId": "AFNetworking/Serialization"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFNetworking/Reachability",
         "pkgId": "AFNetworking/Reachability@2.5.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFNetworking/Security",
         "pkgId": "AFNetworking/Security@2.5.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFNetworking/Serialization",
         "pkgId": "AFNetworking/Serialization@2.5.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFNetworking/UIKit",
         "pkgId": "AFNetworking/UIKit@2.5.4",
         "deps": [
-          { "nodeId": "AFNetworking/NSURLConnection" },
-          { "nodeId": "AFNetworking/NSURLSession" }
+          {
+            "nodeId": "AFNetworking/NSURLConnection"
+          },
+          {
+            "nodeId": "AFNetworking/NSURLSession"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "AFOAuth1Client",
         "pkgId": "AFOAuth1Client@0.4.0",
-        "deps": [{ "nodeId": "AFNetworking" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "AFNetworking"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Analytics",
         "pkgId": "Analytics@3.6.9",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "ARAnalytics/Adjust",
         "pkgId": "ARAnalytics/Adjust@5.0.1",
-        "deps": [{ "nodeId": "Adjust" }, { "nodeId": "ARAnalytics/CoreIOS" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "Adjust"
+          },
+          {
+            "nodeId": "ARAnalytics/CoreIOS"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "ARAnalytics/CoreIOS",
         "pkgId": "ARAnalytics/CoreIOS@5.0.1",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "ARAnalytics/DSL",
         "pkgId": "ARAnalytics/DSL@5.0.1",
-        "deps": [{ "nodeId": "ReactiveObjC" }, { "nodeId": "RSSwizzle" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "ReactiveObjC"
+          },
+          {
+            "nodeId": "RSSwizzle"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "ARAnalytics/Segmentio",
         "pkgId": "ARAnalytics/Segmentio@5.0.1",
         "deps": [
-          { "nodeId": "Analytics" },
-          { "nodeId": "ARAnalytics/CoreIOS" }
+          {
+            "nodeId": "Analytics"
+          },
+          {
+            "nodeId": "ARAnalytics/CoreIOS"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "ARCollectionViewMasonryLayout",
         "pkgId": "ARCollectionViewMasonryLayout@2.3.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "ARGenericTableViewController",
         "pkgId": "ARGenericTableViewController@1.0.2",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "ARTiledImageView",
         "pkgId": "ARTiledImageView@1.2.0",
-        "deps": [{ "nodeId": "SDWebImage/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "SDWebImage/Core"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Artsy+UIColors",
         "pkgId": "Artsy+UIColors@3.1.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
@@ -733,90 +1433,154 @@
         "pkgId": "Artsy+UIFonts@3.3.3",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "Artsy+UILabels",
         "pkgId": "Artsy+UILabels@2.2.0",
-        "deps": [{ "nodeId": "Artsy+UIColors" }, { "nodeId": "Artsy+UIFonts" }],
+        "deps": [
+          {
+            "nodeId": "Artsy+UIColors"
+          },
+          {
+            "nodeId": "Artsy+UIFonts"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "Artsy-UIButtons",
         "pkgId": "Artsy-UIButtons@2.3.3",
         "deps": [
-          { "nodeId": "Artsy+UIColors" },
-          { "nodeId": "Artsy+UIFonts" },
-          { "nodeId": "UIView+BooleanAnimations" }
+          {
+            "nodeId": "Artsy+UIColors"
+          },
+          {
+            "nodeId": "Artsy+UIFonts"
+          },
+          {
+            "nodeId": "UIView+BooleanAnimations"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "Bolts",
         "pkgId": "Bolts@1.9.0",
-        "deps": [{ "nodeId": "Bolts/AppLinks" }, { "nodeId": "Bolts/Tasks" }],
+        "deps": [
+          {
+            "nodeId": "Bolts/AppLinks"
+          },
+          {
+            "nodeId": "Bolts/Tasks"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Bolts/AppLinks",
         "pkgId": "Bolts/AppLinks@1.9.0",
-        "deps": [{ "nodeId": "Bolts/Tasks" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "Bolts/Tasks"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "Bolts/Tasks",
         "pkgId": "Bolts/Tasks@1.9.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "boost-for-react-native",
         "pkgId": "boost-for-react-native@1.63.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "CocoaLumberjack",
         "pkgId": "CocoaLumberjack@2.0.1",
         "deps": [
-          { "nodeId": "CocoaLumberjack/Default" },
-          { "nodeId": "CocoaLumberjack/Extensions" }
+          {
+            "nodeId": "CocoaLumberjack/Default"
+          },
+          {
+            "nodeId": "CocoaLumberjack/Extensions"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "CocoaLumberjack/Core",
         "pkgId": "CocoaLumberjack/Core@2.0.1",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "CocoaLumberjack/Default",
         "pkgId": "CocoaLumberjack/Default@2.0.1",
-        "deps": [{ "nodeId": "CocoaLumberjack/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "CocoaLumberjack/Core"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "CocoaLumberjack/Extensions",
         "pkgId": "CocoaLumberjack/Extensions@2.0.1",
-        "deps": [{ "nodeId": "CocoaLumberjack/Default" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "CocoaLumberjack/Default"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "DHCShakeNotifier",
         "pkgId": "DHCShakeNotifier@0.2.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -824,7 +1588,9 @@
         "pkgId": "DoubleConversion@1.1.6",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
@@ -832,42 +1598,98 @@
         "pkgId": "EDColor@1.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Emission",
         "pkgId": "Emission@1.12.11",
         "deps": [
-          { "nodeId": "Artsy+UIColors" },
-          { "nodeId": "Artsy+UIFonts" },
-          { "nodeId": "DoubleConversion" },
-          { "nodeId": "Extraction" },
-          { "nodeId": "Folly" },
-          { "nodeId": "glog" },
-          { "nodeId": "ISO8601DateFormatter" },
-          { "nodeId": "Pulley" },
-          { "nodeId": "react-native-cameraroll" },
-          { "nodeId": "react-native-mapbox-gl" },
-          { "nodeId": "react-native-navigator-ios" },
-          { "nodeId": "React/Core" },
-          { "nodeId": "React/CxxBridge" },
-          { "nodeId": "React/RCTActionSheet" },
-          { "nodeId": "React/RCTAnimation" },
-          { "nodeId": "React/RCTCameraRoll" },
-          { "nodeId": "React/RCTGeolocation" },
-          { "nodeId": "React/RCTImage" },
-          { "nodeId": "React/RCTLinkingIOS" },
-          { "nodeId": "React/RCTNetwork" },
-          { "nodeId": "React/RCTText" },
-          { "nodeId": "RNSVG" },
-          { "nodeId": "SDWebImage" },
-          { "nodeId": "SentryReactNative" },
-          { "nodeId": "tipsi-stripe" },
-          { "nodeId": "yoga" }
+          {
+            "nodeId": "Artsy+UIColors"
+          },
+          {
+            "nodeId": "Artsy+UIFonts"
+          },
+          {
+            "nodeId": "DoubleConversion"
+          },
+          {
+            "nodeId": "Extraction"
+          },
+          {
+            "nodeId": "Folly"
+          },
+          {
+            "nodeId": "glog"
+          },
+          {
+            "nodeId": "ISO8601DateFormatter"
+          },
+          {
+            "nodeId": "Pulley"
+          },
+          {
+            "nodeId": "react-native-cameraroll"
+          },
+          {
+            "nodeId": "react-native-mapbox-gl"
+          },
+          {
+            "nodeId": "react-native-navigator-ios"
+          },
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/CxxBridge"
+          },
+          {
+            "nodeId": "React/RCTActionSheet"
+          },
+          {
+            "nodeId": "React/RCTAnimation"
+          },
+          {
+            "nodeId": "React/RCTCameraRoll"
+          },
+          {
+            "nodeId": "React/RCTGeolocation"
+          },
+          {
+            "nodeId": "React/RCTImage"
+          },
+          {
+            "nodeId": "React/RCTLinkingIOS"
+          },
+          {
+            "nodeId": "React/RCTNetwork"
+          },
+          {
+            "nodeId": "React/RCTText"
+          },
+          {
+            "nodeId": "RNSVG"
+          },
+          {
+            "nodeId": "SDWebImage"
+          },
+          {
+            "nodeId": "SentryReactNative"
+          },
+          {
+            "nodeId": "tipsi-stripe"
+          },
+          {
+            "nodeId": "yoga"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
@@ -875,196 +1697,335 @@
         "pkgId": "Expecta@1.0.5",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Expecta+Snapshots",
         "pkgId": "Expecta+Snapshots@3.0.0",
         "deps": [
-          { "nodeId": "Expecta" },
-          { "nodeId": "FBSnapshotTestCase/Core" },
-          { "nodeId": "Specta" }
+          {
+            "nodeId": "Expecta"
+          },
+          {
+            "nodeId": "FBSnapshotTestCase/Core"
+          },
+          {
+            "nodeId": "Specta"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Extraction",
         "pkgId": "Extraction@1.2.4",
         "deps": [
-          { "nodeId": "Extraction/ARAnimationContinuation" },
-          { "nodeId": "Extraction/ARLoadFailureView" },
-          { "nodeId": "Extraction/ARSpinner" },
-          { "nodeId": "Extraction/ARSwitchView" },
-          { "nodeId": "Extraction/UILabel+Typography" },
-          { "nodeId": "Extraction/UIView+ARSpinner" }
+          {
+            "nodeId": "Extraction/ARAnimationContinuation"
+          },
+          {
+            "nodeId": "Extraction/ARLoadFailureView"
+          },
+          {
+            "nodeId": "Extraction/ARSpinner"
+          },
+          {
+            "nodeId": "Extraction/ARSwitchView"
+          },
+          {
+            "nodeId": "Extraction/UILabel+Typography"
+          },
+          {
+            "nodeId": "Extraction/UIView+ARSpinner"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "Extraction/ARAnimationContinuation",
         "pkgId": "Extraction/ARAnimationContinuation@1.2.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "Extraction/ARLoadFailureView",
         "pkgId": "Extraction/ARLoadFailureView@1.2.4",
         "deps": [
-          { "nodeId": "Artsy-UIButtons" },
-          { "nodeId": "Extraction/UILabel+Typography" },
-          { "nodeId": "ORStackView" }
+          {
+            "nodeId": "Artsy-UIButtons"
+          },
+          {
+            "nodeId": "Extraction/UILabel+Typography"
+          },
+          {
+            "nodeId": "ORStackView"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "Extraction/ARSpinner",
         "pkgId": "Extraction/ARSpinner@1.2.4",
         "deps": [
-          { "nodeId": "Extraction/UIView+ARSpinner" },
-          { "nodeId": "UIView+BooleanAnimations" }
+          {
+            "nodeId": "Extraction/UIView+ARSpinner"
+          },
+          {
+            "nodeId": "UIView+BooleanAnimations"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "Extraction/ARSwitchView",
         "pkgId": "Extraction/ARSwitchView@1.2.4",
         "deps": [
-          { "nodeId": "Artsy+UIColors" },
-          { "nodeId": "Artsy+UIFonts" },
-          { "nodeId": "FLKAutoLayout" },
-          { "nodeId": "UIView+BooleanAnimations" }
+          {
+            "nodeId": "Artsy+UIColors"
+          },
+          {
+            "nodeId": "Artsy+UIFonts"
+          },
+          {
+            "nodeId": "FLKAutoLayout"
+          },
+          {
+            "nodeId": "UIView+BooleanAnimations"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "Extraction/UILabel+Typography",
         "pkgId": "Extraction/UILabel+Typography@1.2.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "Extraction/UIView+ARSpinner",
         "pkgId": "Extraction/UIView+ARSpinner@1.2.4",
-        "deps": [{ "nodeId": "Extraction/ARAnimationContinuation" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "Extraction/ARAnimationContinuation"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "FBSDKCoreKit",
         "pkgId": "FBSDKCoreKit@4.37.0",
-        "deps": [{ "nodeId": "Bolts" }],
+        "deps": [
+          {
+            "nodeId": "Bolts"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "FBSDKLoginKit",
         "pkgId": "FBSDKLoginKit@4.37.0",
-        "deps": [{ "nodeId": "FBSDKCoreKit" }],
+        "deps": [
+          {
+            "nodeId": "FBSDKCoreKit"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "FBSnapshotTestCase",
         "pkgId": "FBSnapshotTestCase@2.1.4",
-        "deps": [{ "nodeId": "FBSnapshotTestCase/SwiftSupport" }],
+        "deps": [
+          {
+            "nodeId": "FBSnapshotTestCase/SwiftSupport"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "FBSnapshotTestCase/Core",
         "pkgId": "FBSnapshotTestCase/Core@2.1.4",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "FBSnapshotTestCase/SwiftSupport",
         "pkgId": "FBSnapshotTestCase/SwiftSupport@2.1.4",
-        "deps": [{ "nodeId": "FBSnapshotTestCase/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "FBSnapshotTestCase/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "FLKAutoLayout",
         "pkgId": "FLKAutoLayout@1.0.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Folly",
         "pkgId": "Folly@2018.10.22.00",
         "deps": [
-          { "nodeId": "boost-for-react-native" },
-          { "nodeId": "DoubleConversion" },
-          { "nodeId": "glog" }
+          {
+            "nodeId": "boost-for-react-native"
+          },
+          {
+            "nodeId": "DoubleConversion"
+          },
+          {
+            "nodeId": "glog"
+          }
         ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "Forgeries/Core",
         "pkgId": "Forgeries/Core@1.0.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "Forgeries/Mocks",
         "pkgId": "Forgeries/Mocks@1.0.0",
-        "deps": [{ "nodeId": "Forgeries/Core" }, { "nodeId": "OCMock" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "Forgeries/Core"
+          },
+          {
+            "nodeId": "OCMock"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "FXBlurView",
         "pkgId": "FXBlurView@1.6.1",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "glog",
         "pkgId": "glog@0.3.5",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Interstellar/Core",
         "pkgId": "Interstellar/Core@2.0.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "iRate",
         "pkgId": "iRate@1.10.2",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "ISO8601DateFormatter",
         "pkgId": "ISO8601DateFormatter@0.7.1",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "JLRoutes",
         "pkgId": "JLRoutes@2.0.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "JSDecoupledAppDelegate",
         "pkgId": "JSDecoupledAppDelegate@1.2.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1072,76 +2033,130 @@
         "pkgId": "JWTDecode@2.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Keys",
         "pkgId": "Keys@1.0.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "KSCrash/Core",
         "pkgId": "KSCrash/Core@1.15.18",
-        "deps": [{ "nodeId": "KSCrash/Reporting/Filters/Basic" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "KSCrash/Reporting/Filters/Basic"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "KSCrash/Recording",
         "pkgId": "KSCrash/Recording@1.15.18",
-        "deps": [{ "nodeId": "KSCrash/Recording/Tools" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "KSCrash/Recording/Tools"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "KSCrash/Recording/Tools",
         "pkgId": "KSCrash/Recording/Tools@1.15.18",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "KSCrash/Reporting/Filters/Base",
         "pkgId": "KSCrash/Reporting/Filters/Base@1.15.18",
-        "deps": [{ "nodeId": "KSCrash/Recording" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "KSCrash/Recording"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "KSCrash/Reporting/Filters/Basic",
         "pkgId": "KSCrash/Reporting/Filters/Basic@1.15.18",
         "deps": [
-          { "nodeId": "KSCrash/Recording" },
-          { "nodeId": "KSCrash/Reporting/Filters/Base" }
+          {
+            "nodeId": "KSCrash/Recording"
+          },
+          {
+            "nodeId": "KSCrash/Reporting/Filters/Base"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "KSDeferred",
         "pkgId": "KSDeferred@0.2.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Mantle",
         "pkgId": "Mantle@1.5.6",
-        "deps": [{ "nodeId": "Mantle/extobjc" }],
+        "deps": [
+          {
+            "nodeId": "Mantle/extobjc"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Mantle/extobjc",
         "pkgId": "Mantle/extobjc@1.5.6",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "MARKRangeSlider",
         "pkgId": "MARKRangeSlider@1.0.1",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1149,7 +2164,9 @@
         "pkgId": "MMMarkdown@0.4",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1157,7 +2174,9 @@
         "pkgId": "MultiDelegate@0.0.2",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1165,29 +2184,50 @@
         "pkgId": "Nimble@7.3.4",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Nimble-Snapshots",
         "pkgId": "Nimble-Snapshots@6.3.0",
-        "deps": [{ "nodeId": "Nimble-Snapshots/Core" }],
+        "deps": [
+          {
+            "nodeId": "Nimble-Snapshots/Core"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Nimble-Snapshots/Core",
         "pkgId": "Nimble-Snapshots/Core@6.3.0",
-        "deps": [{ "nodeId": "FBSnapshotTestCase" }, { "nodeId": "Nimble" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "FBSnapshotTestCase"
+          },
+          {
+            "nodeId": "Nimble"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "NPKeyboardLayoutGuide",
         "pkgId": "NPKeyboardLayoutGuide@1.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1195,7 +2235,9 @@
         "pkgId": "ObjectiveSugar@1.1.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1203,7 +2245,9 @@
         "pkgId": "OCMock@2.2.4",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1211,7 +2255,9 @@
         "pkgId": "OHHTTPStubs@3.1.2",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1219,279 +2265,532 @@
         "pkgId": "ORKeyboardReactingApplication@0.5.3",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "ORStackView",
         "pkgId": "ORStackView@2.0.3",
-        "deps": [{ "nodeId": "FLKAutoLayout" }],
+        "deps": [
+          {
+            "nodeId": "FLKAutoLayout"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Pulley",
         "pkgId": "Pulley@2.6.2",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Quick",
         "pkgId": "Quick@2.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "React",
         "pkgId": "React@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       },
       {
         "nodeId": "react-native-cameraroll",
         "pkgId": "react-native-cameraroll@1.0.5",
-        "deps": [{ "nodeId": "React" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "react-native-mapbox-gl",
         "pkgId": "react-native-mapbox-gl@6.1.4",
-        "deps": [{ "nodeId": "React" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "react-native-navigator-ios",
         "pkgId": "react-native-navigator-ios@1.0.0",
-        "deps": [{ "nodeId": "React" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "React/Core",
         "pkgId": "React/Core@0.59.2",
-        "deps": [{ "nodeId": "yoga" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "yoga"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/CxxBridge",
         "pkgId": "React/CxxBridge@0.59.2",
         "deps": [
-          { "nodeId": "Folly" },
-          { "nodeId": "React/Core" },
-          { "nodeId": "React/cxxreact" },
-          { "nodeId": "React/jsiexecutor" }
+          {
+            "nodeId": "Folly"
+          },
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/cxxreact"
+          },
+          {
+            "nodeId": "React/jsiexecutor"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/cxxreact",
         "pkgId": "React/cxxreact@0.59.2",
         "deps": [
-          { "nodeId": "boost-for-react-native" },
-          { "nodeId": "DoubleConversion" },
-          { "nodeId": "Folly" },
-          { "nodeId": "glog" },
-          { "nodeId": "React/jsinspector" }
+          {
+            "nodeId": "boost-for-react-native"
+          },
+          {
+            "nodeId": "DoubleConversion"
+          },
+          {
+            "nodeId": "Folly"
+          },
+          {
+            "nodeId": "glog"
+          },
+          {
+            "nodeId": "React/jsinspector"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/DevSupport",
         "pkgId": "React/DevSupport@0.59.2",
         "deps": [
-          { "nodeId": "React/Core" },
-          { "nodeId": "React/RCTWebSocket" }
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/RCTWebSocket"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/fishhook",
         "pkgId": "React/fishhook@0.59.2",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/jsi",
         "pkgId": "React/jsi@0.59.2",
         "deps": [
-          { "nodeId": "DoubleConversion" },
-          { "nodeId": "Folly" },
-          { "nodeId": "glog" }
+          {
+            "nodeId": "DoubleConversion"
+          },
+          {
+            "nodeId": "Folly"
+          },
+          {
+            "nodeId": "glog"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/jsiexecutor",
         "pkgId": "React/jsiexecutor@0.59.2",
         "deps": [
-          { "nodeId": "DoubleConversion" },
-          { "nodeId": "Folly" },
-          { "nodeId": "glog" },
-          { "nodeId": "React/cxxreact" },
-          { "nodeId": "React/jsi" }
+          {
+            "nodeId": "DoubleConversion"
+          },
+          {
+            "nodeId": "Folly"
+          },
+          {
+            "nodeId": "glog"
+          },
+          {
+            "nodeId": "React/cxxreact"
+          },
+          {
+            "nodeId": "React/jsi"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/jsinspector",
         "pkgId": "React/jsinspector@0.59.2",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTActionSheet",
         "pkgId": "React/RCTActionSheet@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTAnimation",
         "pkgId": "React/RCTAnimation@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTBlob",
         "pkgId": "React/RCTBlob@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTCameraRoll",
         "pkgId": "React/RCTCameraRoll@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }, { "nodeId": "React/RCTImage" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/RCTImage"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTGeolocation",
         "pkgId": "React/RCTGeolocation@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTImage",
         "pkgId": "React/RCTImage@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }, { "nodeId": "React/RCTNetwork" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/RCTNetwork"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTLinkingIOS",
         "pkgId": "React/RCTLinkingIOS@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTNetwork",
         "pkgId": "React/RCTNetwork@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTText",
         "pkgId": "React/RCTText@0.59.2",
-        "deps": [{ "nodeId": "React/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "React/RCTWebSocket",
         "pkgId": "React/RCTWebSocket@0.59.2",
         "deps": [
-          { "nodeId": "React/Core" },
-          { "nodeId": "React/fishhook" },
-          { "nodeId": "React/RCTBlob" }
+          {
+            "nodeId": "React/Core"
+          },
+          {
+            "nodeId": "React/fishhook"
+          },
+          {
+            "nodeId": "React/RCTBlob"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
+        }
       },
       {
         "nodeId": "ReactiveObjC",
         "pkgId": "ReactiveObjC@2.1.2",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "RNSVG",
         "pkgId": "RNSVG@9.4.0",
-        "deps": [{ "nodeId": "React" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "RSSwizzle",
         "pkgId": "RSSwizzle@0.1.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "SDWebImage",
         "pkgId": "SDWebImage@3.7.3",
-        "deps": [{ "nodeId": "SDWebImage/Core" }],
+        "deps": [
+          {
+            "nodeId": "SDWebImage/Core"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "SDWebImage/Core",
         "pkgId": "SDWebImage/Core@3.7.3",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "Sentry",
         "pkgId": "Sentry@3.9.1",
-        "deps": [{ "nodeId": "Sentry/Core" }, { "nodeId": "Sentry/KSCrash" }],
+        "deps": [
+          {
+            "nodeId": "Sentry/Core"
+          },
+          {
+            "nodeId": "Sentry/KSCrash"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "Sentry/Core",
         "pkgId": "Sentry/Core@3.9.1",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "Sentry/KSCrash",
         "pkgId": "Sentry/KSCrash@3.9.1",
-        "deps": [{ "nodeId": "KSCrash/Core" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "KSCrash/Core"
+          }
+        ],
+        "info": {
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
       },
       {
         "nodeId": "SentryReactNative",
         "pkgId": "SentryReactNative@0.30.3",
         "deps": [
-          { "nodeId": "React" },
-          { "nodeId": "Sentry" },
-          { "nodeId": "Sentry/KSCrash" }
+          {
+            "nodeId": "React"
+          },
+          {
+            "nodeId": "Sentry"
+          },
+          {
+            "nodeId": "Sentry/KSCrash"
+          }
         ],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Specta",
         "pkgId": "Specta@1.0.5",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "SSFadingScrollView",
         "pkgId": "SSFadingScrollView@1.1.0",
         "deps": [],
-        "info": { "labels": {} }
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "Starscream",
         "pkgId": "Starscream@3.0.4",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1499,7 +2798,9 @@
         "pkgId": "Stripe@14.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1507,7 +2808,9 @@
         "pkgId": "SwiftyJSON@4.0.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1515,21 +2818,34 @@
         "pkgId": "Then@2.3.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "tipsi-stripe",
         "pkgId": "tipsi-stripe@7.5.0",
-        "deps": [{ "nodeId": "React" }, { "nodeId": "Stripe" }],
-        "info": { "labels": {} }
+        "deps": [
+          {
+            "nodeId": "React"
+          },
+          {
+            "nodeId": "Stripe"
+          }
+        ],
+        "info": {
+          "labels": {}
+        }
       },
       {
         "nodeId": "UICKeyChainStore",
         "pkgId": "UICKeyChainStore@1.0.5",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1537,7 +2853,9 @@
         "pkgId": "UIView+BooleanAnimations@1.0.2",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1545,15 +2863,23 @@
         "pkgId": "VCRURLConnection@0.2.0",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
         "nodeId": "XCTest+OHHTTPStubSuiteCleanUp",
         "pkgId": "XCTest+OHHTTPStubSuiteCleanUp@1.0.0",
-        "deps": [{ "nodeId": "OHHTTPStubs" }],
+        "deps": [
+          {
+            "nodeId": "OHHTTPStubs"
+          }
+        ],
         "info": {
-          "labels": { "repository": "https://github.com/cocoapods/specs.git" }
+          "labels": {
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
         }
       },
       {
@@ -1561,7 +2887,9 @@
         "pkgId": "yoga@0.59.2.React",
         "deps": [],
         "info": {
-          "labels": { "repository": "https://github.com/artsy/Specs.git" }
+          "labels": {
+            "repository": "https://github.com/artsy/Specs.git"
+          }
         }
       }
     ]
