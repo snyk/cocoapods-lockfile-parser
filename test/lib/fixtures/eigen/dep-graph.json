@@ -1316,7 +1316,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/lxcid/AFOAuth1Client.git",
+            "externalSourceTag": "0.4.0"
+          }
         }
       },
       {
@@ -1395,7 +1398,9 @@
         "pkgId": "ARCollectionViewMasonryLayout@2.3.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/ashfurrow/ARCollectionViewMasonryLayout"
+          }
         }
       },
       {
@@ -1403,7 +1408,9 @@
         "pkgId": "ARGenericTableViewController@1.0.2",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/orta/ARGenericTableViewController.git"
+          }
         }
       },
       {
@@ -1415,7 +1422,9 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/dblock/ARTiledImageView"
+          }
         }
       },
       {
@@ -1538,7 +1547,9 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+          }
         }
       },
       {
@@ -1546,7 +1557,9 @@
         "pkgId": "CocoaLumberjack/Core@2.0.1",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+          }
         }
       },
       {
@@ -1558,7 +1571,9 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+          }
         }
       },
       {
@@ -1570,7 +1585,9 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+          }
         }
       },
       {
@@ -1916,7 +1933,10 @@
         "pkgId": "FLKAutoLayout@1.0.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/orta/FLKAutoLayout.git",
+            "externalSourceBranch": "v1"
+          }
         }
       },
       {
@@ -1981,7 +2001,9 @@
         "pkgId": "glog@0.3.5",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourcePodspec": "./externals/glog/glog.podspec"
+          }
         }
       },
       {
@@ -1989,7 +2011,10 @@
         "pkgId": "Interstellar/Core@2.0.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/ashfurrow/Interstellar.git",
+            "externalSourceBranch": "observable-unsubscribe"
+          }
         }
       },
       {
@@ -2007,7 +2032,9 @@
         "pkgId": "ISO8601DateFormatter@0.7.1",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/orta/iso-8601-date-formatter"
+          }
         }
       },
       {
@@ -2015,7 +2042,9 @@
         "pkgId": "JLRoutes@2.0.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/orta/JLRoutes.git"
+          }
         }
       },
       {
@@ -2043,7 +2072,9 @@
         "pkgId": "Keys@1.0.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourcePath": "Pods/CocoaPodsKeys"
+          }
         }
       },
       {
@@ -2289,7 +2320,10 @@
         "pkgId": "Pulley@2.6.2",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/l2succes/Pulley.git",
+            "externalSourceBranch": "master"
+          }
         }
       },
       {
@@ -2325,7 +2359,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/react-native-community/react-native-cameraroll",
+            "externalSourceTag": "v1.0.5"
+          }
         }
       },
       {
@@ -2337,7 +2374,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/l2succes/react-native-mapbox-gl",
+            "externalSourceBranch": "fix-gesture-recognizer"
+          }
         }
       },
       {
@@ -2349,7 +2389,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/ashfurrow/react-native-navigator-ios",
+            "externalSourceBranch": "license_podspec"
+          }
         }
       },
       {
@@ -2669,7 +2712,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/react-native-community/react-native-svg.git",
+            "externalSourceTag": "v9.4.0"
+          }
         }
       },
       {
@@ -2762,7 +2808,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/getsentry/react-native-sentry.git",
+            "externalSourceTag": "v0.30.3"
+          }
         }
       },
       {
@@ -2780,7 +2829,10 @@
         "pkgId": "SSFadingScrollView@1.1.0",
         "deps": [],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/alloy/SSFadingScrollView.git",
+            "externalSourceBranch": "add-axial-support"
+          }
         }
       },
       {
@@ -2835,7 +2887,10 @@
           }
         ],
         "info": {
-          "labels": {}
+          "labels": {
+            "externalSourceGit": "https://github.com/ashfurrow/tipsi-stripe.git",
+            "externalSourceBranch": "fix-infinite-loop"
+          }
         }
       },
       {
