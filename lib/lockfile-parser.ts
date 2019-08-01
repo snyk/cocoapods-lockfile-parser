@@ -110,6 +110,14 @@ export default class LockfileParser {
       };
     }
 
+    // Sanitize labels by removing null fields
+    // (as they don't survive a serialization/parse cycle and break tests)
+    Object.entries(nodeInfoLabels).forEach(([key, value]) => {
+      if (value === null || value === undefined) {
+        delete nodeInfoLabels[key];
+      }
+    });
+
     return nodeInfoLabels;
   }
 
