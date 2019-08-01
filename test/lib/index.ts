@@ -6,6 +6,7 @@
 import { test } from 'tap';
 import * as fs from 'fs';
 import * as path from 'path';
+import { DepGraph, createFromJSON } from '@snyk/dep-graph';
 import LockfileParser from '../../lib';
 
 const regenerateFixtures = process.env.REGENERATE == 'true';
@@ -14,16 +15,15 @@ function fixtureDir(dir: string): string {
   return `${__dirname}/fixtures/${dir}`;
 }
 
-function parse(dir: string): object {
+function parse(dir: string): DepGraph {
   const filePath = path.join(fixtureDir(dir), 'Podfile.lock');
-  return LockfileParser.readFileSync(filePath)
-    .toDepGraph()
-    .toJSON();
+  return LockfileParser.readFileSync(filePath).toDepGraph();
 }
 
-function load(dir: string): object {
+function load(dir: string): DepGraph {
   const filePath = path.join(fixtureDir(dir), 'dep-graph.json');
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  return createFromJSON(json);
 }
 
 function fixtureTest(description, dir): void {
@@ -41,7 +41,15 @@ function fixtureTest(description, dir): void {
         'Fixtures were regenerated, so nothing was actually tested'
       );
     } else {
-      t.deepEqual(depGraph, expectedDepGraph, 'Graph generated as expected');
+      t.deepEqual(
+        depGraph.toJSON(),
+        expectedDepGraph.toJSON(),
+        'JSON deep-equals'
+      );
+      t.true(
+        depGraph.equals(expectedDepGraph, { compareRoot: true }),
+        'Graph equals via DepGraph.equals'
+      );
     }
   });
 }
