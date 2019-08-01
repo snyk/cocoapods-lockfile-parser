@@ -87,7 +87,9 @@ export default class LockfileParser {
   /// Gathers relevant info from the lockfile and transform
   /// them into the expected labels data structure.
   private nodeInfoLabelsForPod(podName): NodeInfoLabels {
-    let nodeInfoLabels: NodeInfoLabels = {};
+    let nodeInfoLabels: NodeInfoLabels = {
+      checksum: this.checksumForPod(podName),
+    };
 
     const repository = this.repositoryForPod(podName);
     if (repository) {
@@ -119,6 +121,12 @@ export default class LockfileParser {
     });
 
     return nodeInfoLabels;
+  }
+
+  /// The checksum of the pod.
+  private checksumForPod(podName: string): string {
+    const rootName = rootSpecName(podName);
+    return this.internalData['SPEC CHECKSUMS'][rootName];
   }
 
   /// This can be either an URL or the local repository name.

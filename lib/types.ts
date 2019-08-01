@@ -2,6 +2,8 @@ export interface NodeInfoLabels {
   // compatibility to @snyk/dep-graph.NodeInfo.labels
   [key: string]: string | undefined;
 
+  checksum: string;
+
   repository?: string;
 
   externalSourcePodspec?: string;
@@ -12,7 +14,6 @@ export interface NodeInfoLabels {
   externalSourceBranch?: string;
 
   // TODO: Support checkoutOptions
-  // TODO: Support checksum
 }
 
 /// This describes the structure of a `Podfile.lock`.
