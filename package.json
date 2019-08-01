@@ -1,6 +1,6 @@
 {
   "name": "snyk-cocoapods-lockfile-parser",
-  "description": "Generate a Snyk dependency tree from a Podfile.lock file",
+  "description": "Generate a Snyk dependency graph from a Podfile.lock file",
   "main": "dist/index.js",
   "scripts": {
     "format:check": "prettier --check '{*,lib/**/*,test/**/*}.{js,ts,json,yml}'",
