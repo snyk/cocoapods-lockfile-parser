@@ -1,5 +1,5 @@
 {
-  "name": "snyk-cocoapods-lockfile-parser",
+  "name": "@snyk/cocoapods-lockfile-parser",
   "description": "Generate a Snyk dependency graph from a Podfile.lock file",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snyk/snyk-cocoapods-lockfile-parser"
+    "url": "https://github.com/snyk/cocoapods-lockfile-parser"
   },
   "author": "snyk.io",
   "license": "Apache-2.0",
@@ -30,7 +30,7 @@
     "bin",
     "dist"
   ],
-  "homepage": "https://github.com/snyk/snyk-cocoapods-lockfile-parser#readme",
+  "homepage": "https://github.com/snyk/cocoapods-lockfile-parser#readme",
   "dependencies": {
     "@snyk/dep-graph": "^1.11.0",
     "@snyk/ruby-semver": "^2.0.4",
