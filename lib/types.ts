@@ -13,7 +13,12 @@ export interface NodeInfoLabels {
   externalSourceCommit?: string;
   externalSourceBranch?: string;
 
-  // TODO: Support checkoutOptions
+  checkoutOptionsPodspec?: string;
+  checkoutOptionsPath?: string;
+  checkoutOptionsGit?: string;
+  checkoutOptionsTag?: string;
+  checkoutOptionsCommit?: string;
+  checkoutOptionsBranch?: string;
 }
 
 /// This describes the structure of a `Podfile.lock`.
@@ -25,6 +30,9 @@ export interface Lockfile {
   };
   'EXTERNAL SOURCES'?: {
     [key: string]: ExternalSourceInfo;
+  };
+  'CHECKOUT OPTIONS'?: {
+    [key: string]: CheckoutOptions;
   };
   'SPEC CHECKSUMS': {
     [key: string]: string;
@@ -48,4 +56,9 @@ export type ExternalSourceInfoKey =
   | ':branch';
 export type ExternalSourceInfo = {
   [K in ExternalSourceInfoKey]?: string;
+};
+
+export type CheckoutOptionKey = ExternalSourceInfoKey;
+export type CheckoutOptions = {
+  [K in CheckoutOptionKey]?: string;
 };

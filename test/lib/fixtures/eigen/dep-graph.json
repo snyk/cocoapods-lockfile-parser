@@ -1330,7 +1330,9 @@
           "labels": {
             "checksum": "07ccc935ba06ac8d023c16d39a5bdf04bc6f92e1",
             "externalSourceGit": "https://github.com/lxcid/AFOAuth1Client.git",
-            "externalSourceTag": "0.4.0"
+            "externalSourceTag": "0.4.0",
+            "checkoutOptionsGit": "https://github.com/lxcid/AFOAuth1Client.git",
+            "checkoutOptionsTag": "0.4.0"
           }
         }
       },
@@ -1417,7 +1419,9 @@
         "info": {
           "labels": {
             "checksum": "97cb468434b546b79a98c7c0908447ff803eb85e",
-            "externalSourceGit": "https://github.com/ashfurrow/ARCollectionViewMasonryLayout"
+            "externalSourceGit": "https://github.com/ashfurrow/ARCollectionViewMasonryLayout",
+            "checkoutOptionsGit": "https://github.com/ashfurrow/ARCollectionViewMasonryLayout",
+            "checkoutOptionsCommit": "f22180d0267567fd3db62f903eaef1119b5c1f2d"
           }
         }
       },
@@ -1428,7 +1432,9 @@
         "info": {
           "labels": {
             "checksum": "61a0897ba66c35111b5d1cc3b44884282bd3c1a5",
-            "externalSourceGit": "https://github.com/orta/ARGenericTableViewController.git"
+            "externalSourceGit": "https://github.com/orta/ARGenericTableViewController.git",
+            "checkoutOptionsGit": "https://github.com/orta/ARGenericTableViewController.git",
+            "checkoutOptionsCommit": "f4c9028754558e196ab9c5111dcd3a4229c5bedf"
           }
         }
       },
@@ -1443,7 +1449,9 @@
         "info": {
           "labels": {
             "checksum": "2db7735f5d3fcb4c859c912834a6a1bf20716377",
-            "externalSourceGit": "https://github.com/dblock/ARTiledImageView"
+            "externalSourceGit": "https://github.com/dblock/ARTiledImageView",
+            "checkoutOptionsGit": "https://github.com/dblock/ARTiledImageView",
+            "checkoutOptionsCommit": "775bc29beb5953e381b2af64edbdfc310b90e074"
           }
         }
       },
@@ -1577,7 +1585,9 @@
         "info": {
           "labels": {
             "checksum": "27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f",
-            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsCommit": "a09dd37888d9f51159c4926d4280794f915d726c"
           }
         }
       },
@@ -1588,7 +1598,9 @@
         "info": {
           "labels": {
             "checksum": "27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f",
-            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsCommit": "a09dd37888d9f51159c4926d4280794f915d726c"
           }
         }
       },
@@ -1603,7 +1615,9 @@
         "info": {
           "labels": {
             "checksum": "27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f",
-            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsCommit": "a09dd37888d9f51159c4926d4280794f915d726c"
           }
         }
       },
@@ -1618,7 +1632,9 @@
         "info": {
           "labels": {
             "checksum": "27ae9abcd376c3e4ee726ecd4adfd7b093ddef3f",
-            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
+            "externalSourceGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsGit": "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+            "checkoutOptionsCommit": "a09dd37888d9f51159c4926d4280794f915d726c"
           }
         }
       },
@@ -1986,7 +2002,9 @@
           "labels": {
             "checksum": "106b14dbae09d32c6730190f4e78a959759ba4a4",
             "externalSourceGit": "https://github.com/orta/FLKAutoLayout.git",
-            "externalSourceBranch": "v1"
+            "externalSourceBranch": "v1",
+            "checkoutOptionsGit": "https://github.com/orta/FLKAutoLayout.git",
+            "checkoutOptionsCommit": "4aa27fa1a9aba36d5465e6cd181ba4b78b0691d3"
           }
         }
       },
@@ -2070,7 +2088,9 @@
           "labels": {
             "checksum": "ab67502af03105f92100a043e178d188a1a437c9",
             "externalSourceGit": "https://github.com/ashfurrow/Interstellar.git",
-            "externalSourceBranch": "observable-unsubscribe"
+            "externalSourceBranch": "observable-unsubscribe",
+            "checkoutOptionsGit": "https://github.com/ashfurrow/Interstellar.git",
+            "checkoutOptionsCommit": "ca22646f5a8449795fba3d3436a045da0aeb5949"
           }
         }
       },
@@ -2092,7 +2112,9 @@
         "info": {
           "labels": {
             "checksum": "8311a2d4e265b269b2fed7ab4db685dcb0a7ccb2",
-            "externalSourceGit": "https://github.com/orta/iso-8601-date-formatter"
+            "externalSourceGit": "https://github.com/orta/iso-8601-date-formatter",
+            "checkoutOptionsGit": "https://github.com/orta/iso-8601-date-formatter",
+            "checkoutOptionsCommit": "1a48b819c85903ded669e74e476aceffebf311fc"
           }
         }
       },
@@ -2103,7 +2125,9 @@
         "info": {
           "labels": {
             "checksum": "63d64c28b26bcdeb5f5b29e436f75b8358e8d6d1",
-            "externalSourceGit": "https://github.com/orta/JLRoutes.git"
+            "externalSourceGit": "https://github.com/orta/JLRoutes.git",
+            "checkoutOptionsGit": "https://github.com/orta/JLRoutes.git",
+            "checkoutOptionsCommit": "5a6df1a795766a4d3e586508e86ec9271d3ef3d9"
           }
         }
       },
@@ -2406,7 +2430,9 @@
           "labels": {
             "checksum": "2679a2b5a9714c5eb760b1fbb535d15c60e50fb4",
             "externalSourceGit": "https://github.com/l2succes/Pulley.git",
-            "externalSourceBranch": "master"
+            "externalSourceBranch": "master",
+            "checkoutOptionsGit": "https://github.com/l2succes/Pulley.git",
+            "checkoutOptionsCommit": "23f1c0e8cad5a72d03176fe33535c14726e7a160"
           }
         }
       },
@@ -2448,7 +2474,9 @@
           "labels": {
             "checksum": "b1faef9f2ea27b07bdf818b8043909a93f797eca",
             "externalSourceGit": "https://github.com/react-native-community/react-native-cameraroll",
-            "externalSourceTag": "v1.0.5"
+            "externalSourceTag": "v1.0.5",
+            "checkoutOptionsGit": "https://github.com/react-native-community/react-native-cameraroll",
+            "checkoutOptionsTag": "v1.0.5"
           }
         }
       },
@@ -2464,7 +2492,9 @@
           "labels": {
             "checksum": "b7309e99290963cc7fe0e34db86c6e16890cfcee",
             "externalSourceGit": "https://github.com/l2succes/react-native-mapbox-gl",
-            "externalSourceBranch": "fix-gesture-recognizer"
+            "externalSourceBranch": "fix-gesture-recognizer",
+            "checkoutOptionsGit": "https://github.com/l2succes/react-native-mapbox-gl",
+            "checkoutOptionsCommit": "8ad2d3a2207da62024c82624c71df5bf5dabc126"
           }
         }
       },
@@ -2480,7 +2510,9 @@
           "labels": {
             "checksum": "93db84cc26b6f8d776e1f504c56082f593efcd09",
             "externalSourceGit": "https://github.com/ashfurrow/react-native-navigator-ios",
-            "externalSourceBranch": "license_podspec"
+            "externalSourceBranch": "license_podspec",
+            "checkoutOptionsGit": "https://github.com/ashfurrow/react-native-navigator-ios",
+            "checkoutOptionsCommit": "695725296669114ceeed76bba218fd91cde381c1"
           }
         }
       },
@@ -2823,7 +2855,9 @@
           "labels": {
             "checksum": "9cb6e958c4b6a1f58185ac72a350b148947d6fed",
             "externalSourceGit": "https://github.com/react-native-community/react-native-svg.git",
-            "externalSourceTag": "v9.4.0"
+            "externalSourceTag": "v9.4.0",
+            "checkoutOptionsGit": "https://github.com/react-native-community/react-native-svg.git",
+            "checkoutOptionsTag": "v9.4.0"
           }
         }
       },
@@ -2926,7 +2960,9 @@
           "labels": {
             "checksum": "3dff4e9bd82aa581dc64ff8d2524d7007cea076b",
             "externalSourceGit": "https://github.com/getsentry/react-native-sentry.git",
-            "externalSourceTag": "v0.30.3"
+            "externalSourceTag": "v0.30.3",
+            "checkoutOptionsGit": "https://github.com/getsentry/react-native-sentry.git",
+            "checkoutOptionsTag": "v0.30.3"
           }
         }
       },
@@ -2949,7 +2985,9 @@
           "labels": {
             "checksum": "a2f142312afad23585e354a41a6ed337045e1aa3",
             "externalSourceGit": "https://github.com/alloy/SSFadingScrollView.git",
-            "externalSourceBranch": "add-axial-support"
+            "externalSourceBranch": "add-axial-support",
+            "checkoutOptionsGit": "https://github.com/alloy/SSFadingScrollView.git",
+            "checkoutOptionsCommit": "3920e3582e46c9fe23b0d1200e28614ebd66d801"
           }
         }
       },
@@ -3012,7 +3050,9 @@
           "labels": {
             "checksum": "2d0e33b5bb62168cd1f1777a904781725c5baf8a",
             "externalSourceGit": "https://github.com/ashfurrow/tipsi-stripe.git",
-            "externalSourceBranch": "fix-infinite-loop"
+            "externalSourceBranch": "fix-infinite-loop",
+            "checkoutOptionsGit": "https://github.com/ashfurrow/tipsi-stripe.git",
+            "checkoutOptionsCommit": "bfebb733fb44d3e1d0522a38a317993f9c686422"
           }
         }
       },

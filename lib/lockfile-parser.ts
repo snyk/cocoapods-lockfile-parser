@@ -6,7 +6,12 @@ import {
   DepGraph,
   DepGraphBuilder,
 } from '@snyk/dep-graph';
-import { Lockfile, NodeInfoLabels, ExternalSourceInfo } from './types';
+import {
+  Lockfile,
+  NodeInfoLabels,
+  ExternalSourceInfo,
+  CheckoutOptions,
+} from './types';
 import {
   pkgInfoFromDependencyString,
   pkgInfoFromSpecificationString,
@@ -112,6 +117,19 @@ export default class LockfileParser {
       };
     }
 
+    const checkoutOptions = this.checkoutOptionsForPod(podName);
+    if (checkoutOptions) {
+      nodeInfoLabels = {
+        ...nodeInfoLabels,
+        checkoutOptionsPodspec: checkoutOptions[':podspec'],
+        checkoutOptionsPath: checkoutOptions[':path'],
+        checkoutOptionsGit: checkoutOptions[':git'],
+        checkoutOptionsTag: checkoutOptions[':tag'],
+        checkoutOptionsCommit: checkoutOptions[':commit'],
+        checkoutOptionsBranch: checkoutOptions[':branch'],
+      };
+    }
+
     // Sanitize labels by removing null fields
     // (as they don't survive a serialization/parse cycle and break tests)
     Object.entries(nodeInfoLabels).forEach(([key, value]) => {
@@ -153,6 +171,20 @@ export default class LockfileParser {
     const externalSourceEntry = externalSources[rootSpecName(podName)];
     if (externalSourceEntry) {
       return externalSourceEntry;
+    }
+    return undefined;
+  }
+
+  /// Extracts the checkout options for a given pod, if there is any.
+  private checkoutOptionsForPod(podName: string): CheckoutOptions | undefined {
+    // Older Podfile.lock might not have this section yet.
+    const checkoutOptions = this.internalData['CHECKOUT OPTIONS'];
+    if (!checkoutOptions) {
+      return undefined;
+    }
+    const checkoutOptionsEntry = checkoutOptions[rootSpecName(podName)];
+    if (checkoutOptionsEntry) {
+      return checkoutOptionsEntry;
     }
     return undefined;
   }
