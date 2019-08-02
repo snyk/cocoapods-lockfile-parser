@@ -10,11 +10,17 @@ node_js:
 cache:
   directories:
     - node_modules
+stages:
+  - lint
+  - test
+  - npm release
 script:
-  - 'npm run lint'
   - 'npm test'
 jobs:
   include:
+    - stage: lint
+      node_js: '10'
+      script: 'npm run lint'
     - stage: npm release
       node_js: '8'
       script: skip
