@@ -13,7 +13,7 @@ _Instructions on how to run this locally, background context, what to review, qu
 ### More information
 
 - [Jira ticket SC-0000](https://snyksec.atlassian.net/browse/SC-0000)
-- [Link to documentation](https://github.com/snyk/snyk-cocoapods-lockfile-parser/wiki/)
+- [Link to documentation](https://github.com/snyk/cocoapods-lockfile-parser/wiki/)
 
 ### Screenshots
 
