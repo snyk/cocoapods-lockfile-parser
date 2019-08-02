@@ -5,11 +5,11 @@
 Run the tests via:
 
 ```sh
-npm run unit-test
+npm run test:unit
 ```
 
 Regenerate the fixtures of the integration specs via:
 
 ```sh
-REGENERATE=true npm run unit-test
+REGENERATE=true npm run test:unit
 ```
