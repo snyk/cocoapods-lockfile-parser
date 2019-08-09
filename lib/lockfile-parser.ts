@@ -91,7 +91,7 @@ export default class LockfileParser {
 
   /// Gathers relevant info from the lockfile and transform
   /// them into the expected labels data structure.
-  private nodeInfoLabelsForPod(podName): NodeInfoLabels {
+  private nodeInfoLabelsForPod(podName: string): NodeInfoLabels {
     let nodeInfoLabels: NodeInfoLabels = {
       checksum: this.checksumForPod(podName),
     };

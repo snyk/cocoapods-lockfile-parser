@@ -20,7 +20,7 @@ function load(dir: string): DepGraph {
   return createFromJSON(json);
 }
 
-function fixtureTest(description, dir): void {
+function fixtureTest(description: string, dir: string): void {
   test(description, async () => {
     const expectedDepGraph = load(dir);
     const depGraph = parse(dir);
