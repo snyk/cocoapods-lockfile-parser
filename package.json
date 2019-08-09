@@ -37,6 +37,7 @@
     "@snyk/dep-graph": "^1.11.0",
     "@snyk/ruby-semver": "^2.0.4",
     "@types/js-yaml": "^3.12.1",
+    "core-js": "^3.2.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.11",
     "snyk": "^1.192.1",

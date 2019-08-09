@@ -17,6 +17,7 @@ import {
   pkgInfoFromSpecificationString,
   rootSpecName,
 } from './utils';
+import 'core-js/features/object/entries';
 
 export default class LockfileParser {
   public static readFileSync(path: string): LockfileParser {
