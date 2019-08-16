@@ -17,6 +17,7 @@ import {
   pkgInfoFromSpecificationString,
   rootSpecName,
 } from './utils';
+import 'core-js/features/object/entries';
 
 export default class LockfileParser {
   public static readFileSync(path: string): LockfileParser {
@@ -91,7 +92,7 @@ export default class LockfileParser {
 
   /// Gathers relevant info from the lockfile and transform
   /// them into the expected labels data structure.
-  private nodeInfoLabelsForPod(podName): NodeInfoLabels {
+  private nodeInfoLabelsForPod(podName: string): NodeInfoLabels {
     let nodeInfoLabels: NodeInfoLabels = {
       checksum: this.checksumForPod(podName),
     };

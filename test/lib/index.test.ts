@@ -1,9 +1,3 @@
-#!/usr/bin/env node_modules/.bin/ts-node
-// Shebang is required, and file *has* to be executable: chmod +x file.test.js
-// See: https://github.com/tapjs/node-tap/issues/313#issuecomment-250067741
-// tslint:disable:max-line-length
-// tslint:disable:object-literal-key-quotes
-import { test } from 'tap';
 import * as fs from 'fs';
 import * as path from 'path';
 import { DepGraph, createFromJSON } from '@snyk/dep-graph';
@@ -26,8 +20,8 @@ function load(dir: string): DepGraph {
   return createFromJSON(json);
 }
 
-function fixtureTest(description, dir): void {
-  test(description, async (t) => {
+function fixtureTest(description: string, dir: string): void {
+  test(description, async () => {
     const expectedDepGraph = load(dir);
     const depGraph = parse(dir);
     if (regenerateFixtures) {
@@ -36,20 +30,17 @@ function fixtureTest(description, dir): void {
         encoding: 'utf8',
       });
 
-      t.false(
-        regenerateFixtures,
+      throw new Error(
         'Fixtures were regenerated, so nothing was actually tested'
       );
     } else {
-      t.deepEqual(
-        depGraph.toJSON(),
-        expectedDepGraph.toJSON(),
-        'JSON deep-equals'
-      );
-      t.true(
-        depGraph.equals(expectedDepGraph, { compareRoot: true }),
-        'Graph equals via DepGraph.equals'
-      );
+      // JSON deep-equals
+      expect(depGraph.toJSON()).toEqual(expectedDepGraph.toJSON());
+
+      // Graph equals via DepGraph.equals
+      expect(
+        depGraph.equals(expectedDepGraph, { compareRoot: true })
+      ).toBeTruthy();
     }
   });
 }
