@@ -25,7 +25,7 @@ jobs:
       node_js: '10'
       script: skip
       after_success:
-        #- npx semantic-release
+        - npx semantic-release
 branches:
   only:
     - master
