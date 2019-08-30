@@ -1,4 +1,5 @@
 import * as fs from 'fs';
+import * as path from 'path';
 import * as yaml from 'js-yaml';
 import {
   PkgInfo,
@@ -20,23 +21,32 @@ import {
 import 'core-js/features/object/entries';
 
 export default class LockfileParser {
-  public static readFileSync(path: string): LockfileParser {
-    const fileContents = fs.readFileSync(path, 'utf8');
-    return this.readContents(fileContents);
+  public static readFileSync(lockfilePath: string): LockfileParser {
+    const fileContents = fs.readFileSync(lockfilePath, 'utf8');
+    const rootName = path.basename(path.dirname(path.resolve(lockfilePath)));
+    return this.readContents(fileContents, {
+      name: rootName,
+      version: '0.0.0',
+    });
   }
 
-  public static readContents(contents: string): LockfileParser {
-    return new LockfileParser(yaml.safeLoad(contents));
+  public static readContents(
+    contents: string,
+    rootPkgInfo?: PkgInfo
+  ): LockfileParser {
+    return new LockfileParser(yaml.safeLoad(contents), rootPkgInfo);
   }
 
+  private rootPkgInfo: PkgInfo | undefined = undefined;
   private internalData: Lockfile;
 
-  public constructor(hash: Lockfile) {
+  public constructor(hash: Lockfile, rootPkgInfo?: PkgInfo) {
+    this.rootPkgInfo = rootPkgInfo;
     this.internalData = hash;
   }
 
   public toDepGraph(): DepGraph {
-    const builder = new DepGraphBuilder(this.pkgManager);
+    const builder = new DepGraphBuilder(this.pkgManager, this.rootPkgInfo);
 
     const allDeps: { [key: string]: PkgInfo[] } = {};
 

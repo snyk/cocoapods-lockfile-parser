@@ -11,9 +11,9 @@
   },
   "pkgs": [
     {
-      "id": "_root@0.0.0",
+      "id": "cp-integration-install_new@0.0.0",
       "info": {
-        "name": "_root",
+        "name": "cp-integration-install_new",
         "version": "0.0.0"
       }
     },
@@ -30,7 +30,7 @@
     "nodes": [
       {
         "nodeId": "root-node",
-        "pkgId": "_root@0.0.0",
+        "pkgId": "cp-integration-install_new@0.0.0",
         "deps": [
           {
             "nodeId": "Reachability"
