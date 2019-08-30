@@ -14,9 +14,9 @@
   },
   "pkgs": [
     {
-      "id": "_root@0.0.0",
+      "id": "eigen@0.0.0",
       "info": {
-        "name": "_root",
+        "name": "eigen",
         "version": "0.0.0"
       }
     },
@@ -922,7 +922,7 @@
     "nodes": [
       {
         "nodeId": "root-node",
-        "pkgId": "_root@0.0.0",
+        "pkgId": "eigen@0.0.0",
         "deps": [
           {
             "nodeId": "Aerodramus"
