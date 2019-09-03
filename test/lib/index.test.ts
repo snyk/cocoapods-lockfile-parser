@@ -9,9 +9,10 @@ function fixtureDir(dir: string): string {
   return `${__dirname}/fixtures/${dir}`;
 }
 
-function parse(dir: string): DepGraph {
+async function parse(dir: string): Promise<DepGraph> {
   const filePath = path.join(fixtureDir(dir), 'Podfile.lock');
-  return LockfileParser.readFileSync(filePath).toDepGraph();
+  const parser = await LockfileParser.readFile(filePath);
+  return parser.toDepGraph();
 }
 
 function load(dir: string): DepGraph {
@@ -23,7 +24,7 @@ function load(dir: string): DepGraph {
 function fixtureTest(description: string, dir: string): void {
   test(description, async () => {
     const expectedDepGraph = load(dir);
-    const depGraph = parse(dir);
+    const depGraph = await parse(dir);
     if (regenerateFixtures) {
       const filePath = path.join(fixtureDir(dir), 'dep-graph.json');
       fs.writeFileSync(filePath, JSON.stringify(depGraph, null, 2), {
@@ -50,3 +51,12 @@ fixtureTest(
   'CocoaPods’ integration spec install_new',
   'cp-integration-install_new'
 );
+
+test('LockfileParser.readFileSync reads eigen’s lockfile', () => {
+  const filePath = path.join(fixtureDir('eigen'), 'Podfile.lock');
+  const parser = LockfileParser.readFileSync(filePath);
+  const depGraph = parser.toDepGraph();
+  expect(depGraph.rootPkg.name).toBe('eigen');
+  expect(depGraph.rootPkg.version).toBe('0.0.0');
+  expect(depGraph.pkgManager.version).toBe('1.6.0.beta.1');
+});

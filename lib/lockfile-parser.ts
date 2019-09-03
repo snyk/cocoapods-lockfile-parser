@@ -21,6 +21,23 @@ import {
 import 'core-js/features/object/entries';
 
 export default class LockfileParser {
+  public static async readFile(lockfilePath: string): Promise<LockfileParser> {
+    const rootName = path.basename(path.dirname(path.resolve(lockfilePath)));
+    return new Promise((resolve, reject) => {
+      fs.readFile(lockfilePath, { encoding: 'utf8' }, (err, fileContents) => {
+        if (err) {
+          reject(err);
+        }
+        resolve(
+          this.readContents(fileContents, {
+            name: rootName,
+            version: '0.0.0',
+          })
+        );
+      });
+    });
+  }
+
   public static readFileSync(lockfilePath: string): LockfileParser {
     const fileContents = fs.readFileSync(lockfilePath, 'utf8');
     const rootName = path.basename(path.dirname(path.resolve(lockfilePath)));
