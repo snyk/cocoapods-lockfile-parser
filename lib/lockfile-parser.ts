@@ -234,4 +234,10 @@ export default class LockfileParser {
   private get cocoapodsVersion(): string {
     return this.internalData.COCOAPODS || 'unknown';
   }
+
+  /// The checksum of the Podfile, which was used when resolving this integration.
+  /// - Note: this was not tracked by earlier versions of CocoaPods.
+  public get podfileChecksum(): string | undefined {
+    return this.internalData['PODFILE CHECKSUM'];
+  }
 }
