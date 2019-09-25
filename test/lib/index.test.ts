@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { DepGraph, createFromJSON } from '@snyk/dep-graph';
-import LockfileParser from '../../lib';
+import { LockfileParser } from '../../lib';
 
 const regenerateFixtures = process.env.REGENERATE == 'true';
 
