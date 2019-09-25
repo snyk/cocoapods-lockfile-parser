@@ -60,3 +60,22 @@ test('LockfileParser.readFileSync reads eigen’s lockfile', () => {
   expect(depGraph.rootPkg.version).toBe('0.0.0');
   expect(depGraph.pkgManager.version).toBe('1.6.0.beta.1');
 });
+
+describe('LockfileParser.podfileChecksum', () => {
+  test('returns eigen’s Podfile checksum', () => {
+    const filePath = path.join(fixtureDir('eigen'), 'Podfile.lock');
+    const parser = LockfileParser.readFileSync(filePath);
+    expect(parser.podfileChecksum).toBe(
+      '23ca0886a0a3ae6b1e8abd87c2fb243b24ab9f2b'
+    );
+  });
+
+  test('returns undefined if there is no Podfile checksum', () => {
+    const filePath = path.join(
+      fixtureDir('cp-integration-install_new'),
+      'Podfile.lock'
+    );
+    const parser = LockfileParser.readFileSync(filePath);
+    expect(parser.podfileChecksum).toBeUndefined();
+  });
+});
