@@ -14,9 +14,7 @@
     "test:watch": "tsc-watch --onSuccess 'npm run test:unit'",
     "prepare": "npm run build",
     "build": "tsc",
-    "build-watch": "tsc -w",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "build-watch": "tsc -w"
   },
   "types": "./dist/index.d.ts",
   "repository": {
@@ -39,13 +37,11 @@
     "@types/js-yaml": "^3.12.1",
     "core-js": "^3.2.0",
     "js-yaml": "^3.13.1",
-    "snyk": "^1.192.1",
     "source-map-support": "^0.5.7",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
-    "@types/lodash": "^4.14.116",
     "@types/node": "^4.0.47",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
     "@typescript-eslint/parser": "^1.13.0",
@@ -62,7 +58,6 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.1"
   },
-  "snyk": true,
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
