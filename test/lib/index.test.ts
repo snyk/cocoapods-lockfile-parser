@@ -61,6 +61,16 @@ test('LockfileParser.readFileSync reads eigen’s lockfile', () => {
   expect(depGraph.pkgManager.version).toBe('1.6.0.beta.1');
 });
 
+test('LockfileParser.readFile with invalid lockfile', async () => {
+  const filePath = path.join(
+    fixtureDir('lockfile_in_conflict'),
+    'Podfile.lock'
+  );
+  await expect(LockfileParser.readFile(filePath)).rejects.toThrowError(
+    /^can not read a block mapping entry; a multiline key may not be an implicit key at line 11, column 11/
+  );
+});
+
 describe('LockfileParser.podfileChecksum', () => {
   test('returns eigen’s Podfile checksum', () => {
     const filePath = path.join(fixtureDir('eigen'), 'Podfile.lock');

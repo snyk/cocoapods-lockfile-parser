@@ -1,0 +1,16 @@
+PODS:
+  - Reachability (3.1.0)
+
+DEPENDENCIES:
+<<<<<<< HEAD
+  - Reachability (= 3.1.0)
+=======
+  - Reachability (~> 3.0.0)
+>>>>>>> c001bada55d00dc0dedabad1dea011c00ldecaf1
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+
+SPEC CHECKSUMS:
+  Reachability: 3c8fe9643e52184d17f207e781cd84158da8c02b
