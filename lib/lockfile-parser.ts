@@ -28,12 +28,15 @@ export default class LockfileParser {
         if (err) {
           reject(err);
         }
-        resolve(
-          this.readContents(fileContents, {
+        try {
+          const parser = this.readContents(fileContents, {
             name: rootName,
             version: '0.0.0',
-          })
-        );
+          });
+          resolve(parser);
+        } catch (err) {
+          reject(err);
+        }
       });
     });
   }
