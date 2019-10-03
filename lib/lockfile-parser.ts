@@ -88,7 +88,7 @@ export default class LockfileParser {
         pkgDeps = elem[objKey].map(pkgInfoFromDependencyString);
       }
 
-      const nodeId = pkgInfo.name;
+      const nodeId = this.nodeIdForPkgInfo(pkgInfo);
       builder.addPkgNode(pkgInfo, nodeId, {
         labels: this.nodeInfoLabelsForPod(pkgInfo.name),
       });
