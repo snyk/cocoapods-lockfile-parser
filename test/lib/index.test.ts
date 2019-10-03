@@ -52,6 +52,7 @@ fixtureTest(
   'cp-integration-install_new'
 );
 fixtureTest('Parse Penc’s Podfile.lock', 'penc');
+fixtureTest('Parse iina’s Podfile.lock', 'iina');
 
 test('LockfileParser.readFileSync reads eigen’s lockfile', () => {
   const filePath = path.join(fixtureDir('eigen'), 'Podfile.lock');

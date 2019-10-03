@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.2.0",
+  "pkgManager": {
+    "name": "CocoaPods",
+    "version": "1.7.5",
+    "repositories": [
+      {
+        "alias": "https://github.com/cocoapods/specs.git"
+      }
+    ]
+  },
+  "pkgs": [
+    {
+      "id": "iina@0.0.0",
+      "info": {
+        "name": "iina",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "id": "GRMustache.swift@2.0.0",
+      "info": {
+        "name": "GRMustache.swift",
+        "version": "2.0.0"
+      }
+    },
+    {
+      "id": "GzipSwift@5.0.0",
+      "info": {
+        "name": "GzipSwift",
+        "version": "5.0.0"
+      }
+    },
+    {
+      "id": "Just@0.7.1",
+      "info": {
+        "name": "Just",
+        "version": "0.7.1"
+      }
+    },
+    {
+      "id": "PromiseKit@6.8.4",
+      "info": {
+        "name": "PromiseKit",
+        "version": "6.8.4"
+      }
+    },
+    {
+      "id": "PromiseKit/CorePromise@6.8.4",
+      "info": {
+        "name": "PromiseKit/CorePromise",
+        "version": "6.8.4"
+      }
+    },
+    {
+      "id": "PromiseKit/Foundation@6.8.4",
+      "info": {
+        "name": "PromiseKit/Foundation",
+        "version": "6.8.4"
+      }
+    },
+    {
+      "id": "Sparkle@1.21.3",
+      "info": {
+        "name": "Sparkle",
+        "version": "1.21.3"
+      }
+    }
+  ],
+  "graph": {
+    "rootNodeId": "root-node",
+    "nodes": [
+      {
+        "nodeId": "root-node",
+        "pkgId": "iina@0.0.0",
+        "deps": [
+          {
+            "nodeId": "GRMustache.swift"
+          },
+          {
+            "nodeId": "GzipSwift"
+          },
+          {
+            "nodeId": "Just"
+          },
+          {
+            "nodeId": "PromiseKit"
+          },
+          {
+            "nodeId": "Sparkle"
+          }
+        ]
+      },
+      {
+        "nodeId": "GRMustache.swift",
+        "pkgId": "GRMustache.swift@2.0.0",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "53405b02c374520f9193cf41bfa677f03a6d70aa",
+            "externalSourceGit": "https://github.com/iina/GRMustache.swift",
+            "checkoutOptionsGit": "https://github.com/iina/GRMustache.swift",
+            "checkoutOptionsCommit": "a46e65d00b4753449b90465be813bbdb1a9ffc9d"
+          }
+        }
+      },
+      {
+        "nodeId": "GzipSwift",
+        "pkgId": "GzipSwift@5.0.0",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "5592f4d62b641e04d06443ba471f8ed76b1363e4",
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
+      },
+      {
+        "nodeId": "Just",
+        "pkgId": "Just@0.7.1",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "60c0995e04718eb621a07abef45ce6883c562f2b",
+            "externalSourceGit": "https://github.com/iina/Just",
+            "externalSourceBranch": "swift-5",
+            "checkoutOptionsGit": "https://github.com/iina/Just",
+            "checkoutOptionsCommit": "d0ae3f9bc2d6bf247b19217764a096bbac55f007"
+          }
+        }
+      },
+      {
+        "nodeId": "PromiseKit",
+        "pkgId": "PromiseKit@6.8.4",
+        "deps": [
+          {
+            "nodeId": "PromiseKit/CorePromise"
+          },
+          {
+            "nodeId": "PromiseKit/Foundation"
+          }
+        ],
+        "info": {
+          "labels": {
+            "checksum": "51794a832647e7b819336dc2279039ce9f1cc49b",
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
+      },
+      {
+        "nodeId": "PromiseKit/CorePromise",
+        "pkgId": "PromiseKit/CorePromise@6.8.4",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "51794a832647e7b819336dc2279039ce9f1cc49b",
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
+      },
+      {
+        "nodeId": "PromiseKit/Foundation",
+        "pkgId": "PromiseKit/Foundation@6.8.4",
+        "deps": [
+          {
+            "nodeId": "PromiseKit/CorePromise"
+          }
+        ],
+        "info": {
+          "labels": {
+            "checksum": "51794a832647e7b819336dc2279039ce9f1cc49b",
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
+      },
+      {
+        "nodeId": "Sparkle",
+        "pkgId": "Sparkle@1.21.3",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "3f75576db8b0265adef36c43249d747f22d0b708",
+            "repository": "https://github.com/cocoapods/specs.git"
+          }
+        }
+      }
+    ]
+  }
+}
