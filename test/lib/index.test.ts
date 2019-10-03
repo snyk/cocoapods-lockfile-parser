@@ -51,6 +51,7 @@ fixtureTest(
   'CocoaPods’ integration spec install_new',
   'cp-integration-install_new'
 );
+fixtureTest('Parse Penc’s Podfile.lock', 'penc');
 
 test('LockfileParser.readFileSync reads eigen’s lockfile', () => {
   const filePath = path.join(fixtureDir('eigen'), 'Podfile.lock');

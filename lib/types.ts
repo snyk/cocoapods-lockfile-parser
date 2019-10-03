@@ -25,7 +25,7 @@ export interface NodeInfoLabels {
 export interface Lockfile {
   PODS: PodEntry[];
   DEPENDENCIES: string[];
-  'SPEC REPOS': {
+  'SPEC REPOS'?: {
     [key: string]: string[];
   };
   'EXTERNAL SOURCES'?: {
