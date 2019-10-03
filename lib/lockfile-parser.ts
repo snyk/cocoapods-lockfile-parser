@@ -180,9 +180,14 @@ export default class LockfileParser {
 
   /// This can be either an URL or the local repository name.
   private repositoryForPod(podName: string): string | undefined {
+    // Older Podfile.lock might not have this section yet.
+    const specRepos = this.internalData['SPEC REPOS'];
+    if (!specRepos) {
+      return undefined;
+    }
     const rootName = rootSpecName(podName);
-    const specRepoEntry = Object.entries(this.internalData['SPEC REPOS']).find(
-      ([, deps]) => (deps as string[]).includes(rootName)
+    const specRepoEntry = Object.entries(specRepos).find(([, deps]) =>
+      (deps as string[]).includes(rootName)
     );
     if (specRepoEntry) {
       return specRepoEntry[0];
@@ -220,15 +225,22 @@ export default class LockfileParser {
     return undefined;
   }
 
+  private get repositories(): PkgManager['repositories'] {
+    // Older Podfile.lock might not have this section yet.
+    const specRepos = this.internalData['SPEC REPOS'];
+    if (!specRepos) {
+      return [];
+    }
+    return Object.keys(specRepos).map((nameOrUrl: string) => {
+      return { alias: nameOrUrl };
+    });
+  }
+
   private get pkgManager(): PkgManager {
     return {
       name: 'CocoaPods',
       version: this.cocoapodsVersion,
-      repositories: Object.keys(this.internalData['SPEC REPOS']).map(
-        (nameOrUrl: string) => {
-          return { alias: nameOrUrl };
-        }
-      ),
+      repositories: this.repositories,
     };
   }
 

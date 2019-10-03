@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.2.0",
+  "pkgManager": {
+    "name": "CocoaPods",
+    "version": "1.3.1",
+    "repositories": []
+  },
+  "pkgs": [
+    {
+      "id": "penc@0.0.0",
+      "info": {
+        "name": "penc",
+        "version": "0.0.0"
+      }
+    },
+    {
+      "id": "Silica@0.1.5",
+      "info": {
+        "name": "Silica",
+        "version": "0.1.5"
+      }
+    },
+    {
+      "id": "Sparkle@1.18.1",
+      "info": {
+        "name": "Sparkle",
+        "version": "1.18.1"
+      }
+    },
+    {
+      "id": "SwiftyBeaver@1.4.2",
+      "info": {
+        "name": "SwiftyBeaver",
+        "version": "1.4.2"
+      }
+    }
+  ],
+  "graph": {
+    "rootNodeId": "root-node",
+    "nodes": [
+      {
+        "nodeId": "root-node",
+        "pkgId": "penc@0.0.0",
+        "deps": [
+          {
+            "nodeId": "Silica"
+          },
+          {
+            "nodeId": "Sparkle"
+          },
+          {
+            "nodeId": "SwiftyBeaver"
+          }
+        ]
+      },
+      {
+        "nodeId": "Silica",
+        "pkgId": "Silica@0.1.5",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "3b5a774469476ef84fe9d96a63bfe09908654e50",
+            "externalSourceGit": "https://github.com/ianyh/Silica.git",
+            "externalSourceTag": "0.1.5",
+            "checkoutOptionsGit": "https://github.com/ianyh/Silica.git",
+            "checkoutOptionsTag": "0.1.5"
+          }
+        }
+      },
+      {
+        "nodeId": "Sparkle",
+        "pkgId": "Sparkle@1.18.1",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "06ea33170007c5937ee54da481b4481af98fac79"
+          }
+        }
+      },
+      {
+        "nodeId": "SwiftyBeaver",
+        "pkgId": "SwiftyBeaver@1.4.2",
+        "deps": [],
+        "info": {
+          "labels": {
+            "checksum": "91057725648ee4980308f1650af077d04b3654a0"
+          }
+        }
+      }
+    ]
+  }
+}
