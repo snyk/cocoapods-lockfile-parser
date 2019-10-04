@@ -88,7 +88,7 @@ export default class LockfileParser {
         pkgDeps = elem[objKey].map(pkgInfoFromDependencyString);
       }
 
-      const nodeId = pkgInfo.name;
+      const nodeId = this.nodeIdForPkgInfo(pkgInfo);
       builder.addPkgNode(pkgInfo, nodeId, {
         labels: this.nodeInfoLabelsForPod(pkgInfo.name),
       });
@@ -107,7 +107,15 @@ export default class LockfileParser {
     // Now we can start to connect dependencies
     Object.entries(allDeps).forEach(([nodeId, pkgDeps]) =>
       pkgDeps.forEach((pkgInfo) => {
-        builder.connectDep(nodeId, this.nodeIdForPkgInfo(pkgInfo));
+        const depNodeId = this.nodeIdForPkgInfo(pkgInfo);
+        if (!allDeps[depNodeId]) {
+          // The pod is not a direct dependency of any targets of the integration,
+          // which can happen for platform-specific transitives, when their platform
+          // is not used in any target. (e.g. PromiseKit/UIKit is iOS-specific and is
+          // a transitive of PromiseKit, but won't be included for a macOS project.)
+          return;
+        }
+        builder.connectDep(nodeId, depNodeId);
       })
     );
 
