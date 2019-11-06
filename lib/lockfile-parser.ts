@@ -246,7 +246,7 @@ export default class LockfileParser {
 
   private get pkgManager(): PkgManager {
     return {
-      name: 'CocoaPods',
+      name: 'cocoapods',
       version: this.cocoapodsVersion,
       repositories: this.repositories,
     };
