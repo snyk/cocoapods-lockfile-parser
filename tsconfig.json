@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "pretty": true,
-    "target": "es5",
+    "target": "es2015",
     "lib": ["es6", "es2016.array.include", "es2017.object"],
     "module": "commonjs",
     "sourceMap": true,
