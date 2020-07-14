@@ -52,7 +52,7 @@
     "ts-jest": "^25.5.1",
     "ts-node": "8.10.1",
     "tsc-watch": "^4.2.3",
-    "typescript": "^3.8.3"
+    "typescript": "~3.8.3"
   },
   "husky": {
     "hooks": {
