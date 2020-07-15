@@ -53,7 +53,7 @@ export default class LockfileParser {
     contents: string,
     rootPkgInfo?: PkgInfo
   ): LockfileParser {
-    return new LockfileParser(yaml.safeLoad(contents), rootPkgInfo);
+    return new LockfileParser(yaml.safeLoad(contents) as Lockfile, rootPkgInfo);
   }
 
   private rootPkgInfo: PkgInfo | undefined = undefined;
