@@ -31,7 +31,7 @@
   ],
   "homepage": "https://github.com/snyk/cocoapods-lockfile-parser#readme",
   "dependencies": {
-    "@snyk/dep-graph": "^1.23.1",
+    "@snyk/dep-graph": "^2.3.0",
     "@types/js-yaml": "^3.12.1",
     "js-yaml": "^3.13.1",
     "tslib": "^1.10.0"
