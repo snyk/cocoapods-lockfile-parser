@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cocoapods-lockfile-parser
+spec:
+  type: external-library
+  lifecycle: "-"
+  owner: os-managed
