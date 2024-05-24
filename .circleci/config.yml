@@ -1,12 +1,32 @@
 version: 2.1
 
 orbs:
-  prodsec: snyk/prodsec-orb@1.0
+  prodsec: snyk/prodsec-orb@1
+
+defaults: &defaults
+  docker:
+    - image: cimg/node:14.19
 
 jobs:
+  security-scans:
+    <<: *defaults
+    working_directory: ~/work
+    steps:
+      - checkout
+      - run:
+          name: Set npmjs user
+          command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
+      - run:
+          name: Install
+          command: npm install
+      - prodsec/security_scans:
+          mode: auto
+          release-branch: master
+          open-source-additional-arguments: --exclude=test
+          iac-scan: disabled
+
   test:
-    docker:
-      - image: cimg/node:14.19
+    <<: *defaults
     working_directory: ~/work
     steps:
       - checkout
@@ -23,8 +43,7 @@ jobs:
           name: Test
           command: npm test
   release:
-    docker:
-      - image: cimg/node:14.19
+    <<: *defaults
     working_directory: ~/work
     steps:
       - checkout
@@ -47,6 +66,15 @@ workflows:
           context:
             - snyk-bot-slack
           channel: os-team-managed-alerts
+          filters:
+            branches:
+              ignore:
+                - master
+      - security-scans:
+          name: Security Scans
+          context:
+            - open_source-managed
+            - nodejs-install
       - test:
           name: Test
           context: nodejs-install
