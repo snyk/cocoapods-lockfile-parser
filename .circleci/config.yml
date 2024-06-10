@@ -5,12 +5,13 @@ orbs:
 
 defaults: &defaults
   docker:
-    - image: cimg/node:14.19
+    - image: cimg/node:20.14
 
 jobs:
   security-scans:
     <<: *defaults
     working_directory: ~/work
+    resource_class: small
     steps:
       - checkout
       - run:
