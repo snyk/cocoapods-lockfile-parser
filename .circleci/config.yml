@@ -6,7 +6,7 @@ orbs:
 jobs:
   test:
     docker:
-      - image: cimg/node:14.19
+      - image: cimg/node:20.14
     working_directory: ~/work
     steps:
       - checkout
@@ -24,7 +24,7 @@ jobs:
           command: npm test
   release:
     docker:
-      - image: cimg/node:14.19
+      - image: cimg/node:20.14
     working_directory: ~/work
     steps:
       - checkout
