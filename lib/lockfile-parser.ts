@@ -53,7 +53,12 @@ export default class LockfileParser {
     contents: string,
     rootPkgInfo?: PkgInfo
   ): LockfileParser {
-    return new LockfileParser(yaml.safeLoad(contents) as Lockfile, rootPkgInfo);
+    return new LockfileParser(
+      yaml.safeLoad(contents, {
+        schema: yaml.FAILSAFE_SCHEMA,
+      }) as Lockfile,
+      rootPkgInfo
+    );
   }
 
   private rootPkgInfo: PkgInfo | undefined = undefined;
@@ -80,7 +85,7 @@ export default class LockfileParser {
         pkgDeps = [];
       } else {
         // When there are dependencies. This equals in yaml e.g.
-        //    - React/Core (0.59.2):
+        //    - React/Core (0.59.2):
         //      - yoga (= 0.59.2.React)
         const objKey = Object.keys(elem)[0];
         pkgInfo = pkgInfoFromSpecificationString(objKey);
@@ -131,14 +136,14 @@ export default class LockfileParser {
   /// them into the expected labels data structure.
   private nodeInfoLabelsForPod(podName: string): NodeInfoLabels {
     let nodeInfoLabels: NodeInfoLabels = {
-      checksum: this.checksumForPod(podName),
+      checksum: asString(this.checksumForPod(podName)) as string,
     };
 
     const repository = this.repositoryForPod(podName);
     if (repository) {
       nodeInfoLabels = {
         ...nodeInfoLabels,
-        repository,
+        repository: asString(repository),
       };
     }
 
@@ -146,12 +151,12 @@ export default class LockfileParser {
     if (externalSourceInfo) {
       nodeInfoLabels = {
         ...nodeInfoLabels,
-        externalSourcePodspec: externalSourceInfo[':podspec'],
-        externalSourcePath: externalSourceInfo[':path'],
-        externalSourceGit: externalSourceInfo[':git'],
-        externalSourceTag: externalSourceInfo[':tag'],
-        externalSourceCommit: externalSourceInfo[':commit'],
-        externalSourceBranch: externalSourceInfo[':branch'],
+        externalSourcePodspec: asString(externalSourceInfo[':podspec']),
+        externalSourcePath: asString(externalSourceInfo[':path']),
+        externalSourceGit: asString(externalSourceInfo[':git']),
+        externalSourceTag: asString(externalSourceInfo[':tag']),
+        externalSourceCommit: asString(externalSourceInfo[':commit']),
+        externalSourceBranch: asString(externalSourceInfo[':branch']),
       };
     }
 
@@ -159,12 +164,12 @@ export default class LockfileParser {
     if (checkoutOptions) {
       nodeInfoLabels = {
         ...nodeInfoLabels,
-        checkoutOptionsPodspec: checkoutOptions[':podspec'],
-        checkoutOptionsPath: checkoutOptions[':path'],
-        checkoutOptionsGit: checkoutOptions[':git'],
-        checkoutOptionsTag: checkoutOptions[':tag'],
-        checkoutOptionsCommit: checkoutOptions[':commit'],
-        checkoutOptionsBranch: checkoutOptions[':branch'],
+        checkoutOptionsPodspec: asString(checkoutOptions[':podspec']),
+        checkoutOptionsPath: asString(checkoutOptions[':path']),
+        checkoutOptionsGit: asString(checkoutOptions[':git']),
+        checkoutOptionsTag: asString(checkoutOptions[':tag']),
+        checkoutOptionsCommit: asString(checkoutOptions[':commit']),
+        checkoutOptionsBranch: asString(checkoutOptions[':branch']),
       };
     }
 
@@ -254,12 +259,19 @@ export default class LockfileParser {
   /// The CocoaPods version encoded in the lockfile which was used to
   /// create this resolution.
   private get cocoapodsVersion(): string {
-    return this.internalData.COCOAPODS || 'unknown';
+    return asString(this.internalData.COCOAPODS) || 'unknown';
   }
 
   /// The checksum of the Podfile, which was used when resolving this integration.
   /// - Note: this was not tracked by earlier versions of CocoaPods.
   public get podfileChecksum(): string | undefined {
-    return this.internalData['PODFILE CHECKSUM'];
+    return asString(this.internalData['PODFILE CHECKSUM']);
   }
+}
+
+function asString(value: unknown): string | undefined {
+  if (value === null || value === undefined) {
+    return undefined;
+  }
+  return String(value);
 }
