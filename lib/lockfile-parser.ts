@@ -54,7 +54,7 @@ export default class LockfileParser {
     rootPkgInfo?: PkgInfo
   ): LockfileParser {
     return new LockfileParser(
-      yaml.safeLoad(contents, {
+      yaml.load(contents, {
         schema: yaml.FAILSAFE_SCHEMA,
       }) as Lockfile,
       rootPkgInfo
