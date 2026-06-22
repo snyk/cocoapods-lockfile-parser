@@ -18,7 +18,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snyk/cocoapods-lockfile-parser"
+    "url": "https://github.com/snyk/cocoapods-lockfile-parser.git"
   },
   "publishConfig": {
     "access": "public"
@@ -32,6 +32,9 @@
     "dist"
   ],
   "homepage": "https://github.com/snyk/cocoapods-lockfile-parser#readme",
+  "bugs": {
+    "url": "https://github.com/snyk/cocoapods-lockfile-parser/issues"
+  },
   "dependencies": {
     "@snyk/dep-graph": "^2.3.0",
     "@types/js-yaml": "^3.12.1",
