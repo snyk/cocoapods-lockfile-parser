@@ -69,7 +69,7 @@ test('LockfileParser.readFile with invalid lockfile', async () => {
     'Podfile.lock'
   );
   await expect(LockfileParser.readFile(filePath)).rejects.toThrowError(
-    /^can not read a block mapping entry; a multiline key may not be an implicit key at line 11, column 11/
+    /^can not read a block mapping entry; a multiline key may not be an implicit key \(11:11\)/
   );
 });
 
