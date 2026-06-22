@@ -87,6 +87,7 @@ workflows:
             - Test
           context:
             - github-release
+            - nodejs-install
           filters:
             branches:
               only:
