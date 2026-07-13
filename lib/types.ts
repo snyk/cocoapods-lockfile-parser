@@ -48,12 +48,7 @@ type PodEntry =
     };
 
 export type ExternalSourceInfoKey =
-  | ':podspec'
-  | ':path'
-  | ':git'
-  | ':tag'
-  | ':commit'
-  | ':branch';
+  ':podspec' | ':path' | ':git' | ':tag' | ':commit' | ':branch';
 export type ExternalSourceInfo = {
   [K in ExternalSourceInfoKey]?: string;
 };
