@@ -53,7 +53,7 @@
     "prettier": "^3.3.1",
     "pretty-quick": "^4.0.0",
     "ts-jest": "^29.1.4",
-    "tsc-watch": "^6.2.0",
+    "tsc-watch": "^7.2.1",
     "typescript": "^5.4.5"
   },
   "husky": {
