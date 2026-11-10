@@ -28,11 +28,6 @@ jobs:
 
   test:
     <<: *defaults
-    parameters:
-      node_version:
-        type: string
-    docker:
-      - image: cimg/node:<< parameters.node_version >>
     working_directory: ~/work
     steps:
       - checkout
@@ -86,12 +81,8 @@ workflows:
             - nodejs-install
             - prodsec-orb-runtime
       - test:
-          name: Test Node=<< matrix.node_version >>
+          name: Test
           context: nodejs-install
-          matrix:
-            alias: Test
-            parameters:
-              node_version: ['22', '24', '26']
       - release:
           name: Release
           requires:
