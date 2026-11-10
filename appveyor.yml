@@ -17,9 +17,9 @@ cache:
 
 environment:
   matrix:
-    - nodejs_version: '12'
-    - nodejs_version: '10'
-    - nodejs_version: '8'
+    - nodejs_version: '22'
+    - nodejs_version: '24'
+    - nodejs_version: '26'
 
 matrix:
   fast_finish: true
