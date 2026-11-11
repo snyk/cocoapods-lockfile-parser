@@ -5,7 +5,7 @@ orbs:
 
 defaults: &defaults
   docker:
-    - image: cimg/node:22
+    - image: cimg/node:24  # npm 11+ (Node 24) is needed for OIDC trusted publishing
 
 jobs:
   security-scans:
@@ -28,6 +28,8 @@ jobs:
 
   test:
     <<: *defaults
+    docker:
+      - image: cimg/node:22  # tests run on the oldest supported Node.js
     working_directory: ~/work
     steps:
       - checkout
