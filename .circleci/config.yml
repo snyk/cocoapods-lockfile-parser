@@ -19,7 +19,7 @@ jobs:
           command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
       - run:
           name: Install
-          command: npm install
+          command: npm ci
       - prodsec/security_scans:
           mode: auto
           release-branch: master
@@ -38,7 +38,7 @@ jobs:
           command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
       - run:
           name: Install
-          command: npm install
+          command: npm ci
       - run:
           name: Lint
           command: npm run lint
@@ -55,7 +55,7 @@ jobs:
           command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
       - run:
           name: Install
-          command: npm install
+          command: npm ci
       - run:
           name: Release
           command: |
